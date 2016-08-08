@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 11-12</title>
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/templating.css">
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
+    <script type="text/javascript" src="js/templating.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <header>
+		<div class="logo">
+			<a href="#">Logo</a>
+		</div>
+		<nav>
+			<ul class="menu">
+				<li class="item"><a href="#">Nav 1</a></li>
+        		<li class="item"><a href="#">Nav 2</a></li>
+        		<li class="item"><a href="#">Nav 3</a></li>            		
+               	<li class="item"><a href="#">Nav 4</a></li>
+				<li class="item"><a href="#">Nav 5</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="wrapper">
+		<div class="carousel_wrapper">
+			<div class="carousel_arrow_left">&lsaquo;</div>
+			<div class="carousel_hider">			        
+				<ul class="carousel_list">
+					<li class="carousel_item">
+						<a href="image/cat_1.jpg" target="blank"><img src="image/cat_1.jpg" alt="#"></a>
+					</li>
+					<li class="carousel_item">
+						<a href="image/cat_2.jpg" target="blank"><img src="image/cat_2.jpg" alt="#"></a>
+					</li>
+					<li class="carousel_item">
+						<a href="image/cat_3.jpg" target="blank"><img src="image/cat_3.jpg" alt="#"></a>
+					</li>
+					<li class="carousel_item">
+						<a href="image/cat_4.jpg" target="blank"><img src="image/cat_4.jpg" alt="#"></a>
+					</li>
+					<li class="carousel_item">
+						<a href="image/cat_5.jpg" target="blank"><img src="image/cat_5.jpg" alt="#"></a>
+					</li>
+					<li class="carousel_item">
+						<a href="image/cat_6.jpg" target="blank"><img src="image/cat_6.jpg" alt="#"></a>
+					</li>
+					<li class="carousel_item">
+						<a href="image/cat_7.jpg" target="blank"><img src="image/cat_7.jpg" alt="#"></a>
+					</li>
+					<li class="carousel_item">
+						<a href="image/cat_8.jpg" target="blank"><img src="image/cat_8.jpg" alt="#"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="carousel_arrow_right">&rsaquo;</div>
+		</div>
+	</div>
+
+	<script type="text/template" id="item_tmpl">
+      <% for ( var i = 0; i < members.length; i++ ) { %>
+
+        <div class="page <%=members[i].id%>">
+            <h1><%=members[i].name%></h1>
+            <img class="photo" src="image/<%=members[i].photo%>">
+            <p><%=members[i].student%></p>
+            <div class="divLine"></div>
+            <p>Хочу учить фронтенд потому что:</p>
+            <ul>
+                <li><%=members[i].reason_1%></li>
+                <li><%=members[i].reason_2%></li>
+                <li><%=members[i].reason_3%></li>
+            </ul>
+            <div class="divLine"></div>
+            <p>Мой контактный номер телефонa:</p>
+            <p><%=members[i].number%></p>
+            <p>Мой профиль в facebook:</p>
+            <a href="https://facebook.com/id<%=members[i].facebookAcc%>">facebook.com</a>
+            <div class="divLine"></div>
+            <p>Мой фидбек:</p>
+            <p><%=members[i].feedback%></p>
+        </div>
+      <% } %>
+    </script>
+	<div class="page_wrapper">
+    	<div class='page' id="results">
+    </div>
+</div>
+</body>
+</html>

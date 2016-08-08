@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	padding-top: 200px;
+}
+
+#timer_text {
+	font: 100px Verdana;
+	color: #4e8ccb;
+}
+
+#timer_milliseconds {
+	display: inline-block;
+	margin-left: 530px;
+	font: 35px Verdana;
+	color: #4e8ccb;
+}
+
+#start,
+#clear {
+	margin-top: 80px;
+	width: 250px;
+	height: 80px;
+	font: 50px Verdana;
+}

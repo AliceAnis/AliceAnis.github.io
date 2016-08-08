@@ -1,0 +1,25 @@
+@media #{$tabletPortrait} {
+    $m: tabletPortrait;
+
+    @import '../desktop';
+
+    h3 {
+		font: bold 22px 'Monserrat', sans-serif;
+		color: $color1;
+		margin-top: 98px;
+		text-align: center;
+	}
+
+	.grid {
+		max-width: 748px;
+		margin: 31px auto 0;
+
+		.grid-sizer {
+			width: 235px;
+		}
+
+		.grid-item {
+			width: 235px;
+		}
+	}
+}

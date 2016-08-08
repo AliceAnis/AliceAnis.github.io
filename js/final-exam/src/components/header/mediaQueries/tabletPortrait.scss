@@ -1,0 +1,21 @@
+@media #{$tabletPortrait} {
+    $m: tabletPortrait;
+
+    @import '../desktop';
+
+    .header_wrapper {
+    	padding: 217px 38px 233px;
+    	position: relative;
+
+		.header_logo {
+			top: 47px;
+			left: 50px;
+		}
+
+		.header_links {
+			top: 35px;
+			right: 47px;
+		}
+    }     
+
+}

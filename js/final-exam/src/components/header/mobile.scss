@@ -1,0 +1,81 @@
+& {
+    
+    background: url(../images/bg_mobile.jpg) center no-repeat;
+    background-size: cover;
+    padding: 21px 0 138px;
+    box-sizing: border-box;    
+
+    .header_logo {
+        margin-top: 116px;
+        text-align: center;
+
+        a {
+            font: bold 20px 'Montserrat', sans-serif;
+            color: $color1;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+    }
+
+    .header_links {
+        margin: 0 auto;
+        width: 190px;
+        a {
+            height: 35px;
+            font: bold 14px 'Montserrat', sans-serif;
+            color: $color1;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0 15px;
+            border: 2px solid transparent;
+            border-radius: 30px;
+            transition: all .5s ease 0s;
+            line-height: 35px;
+            box-sizing: border-box;
+
+            &:hover {
+                border-color: $color1;
+            }
+        }        
+    }
+
+    .slogan {
+        margin: 28px auto 0;
+        text-align: center;
+
+        h1 {
+            font: bold 30px 'Montserrat', sans-serif;
+            color: $color1;
+            text-transform: uppercase;            
+        }
+
+        p {
+            margin-top: 11px;
+            font: 18px 'Roboto Light', sans-serif;
+            color: $color1;
+            padding: 0 42px;
+            line-height: 18px;
+            box-sizing: border-box;
+        }
+    }
+
+    button {
+            width: 280px;
+            height: 40px;
+            margin: 20px auto 0;
+            font: bold 14px 'Montserrat', sans-serif;
+            color: $color1;
+            line-height: 35px;
+            background-color: $color2;
+            border: 2px solid $color2;
+            border-radius: 30px;
+            box-sizing: border-box;
+            display: block;
+            transition: all .5s ease 0s;
+
+            &:hover {
+                background-color: $color1;
+                color: $color2;
+            }
+        }    
+}

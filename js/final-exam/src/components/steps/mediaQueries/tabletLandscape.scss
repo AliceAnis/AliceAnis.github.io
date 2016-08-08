@@ -1,0 +1,45 @@
+@media #{$tabletLandscape} {
+    $m: tabletLandscape;
+
+    @import '../desktop';
+
+    padding: 0 10px;
+
+    .steps-wrapper {
+    	margin: 0 auto;
+        text-align: center;
+
+        .owl-carousel {
+        	width: 235px;
+        	height: 400px;
+
+        	.container {
+    			width: 235px;
+    			height: 400px;
+                border-radius: 5px;                
+    		}
+
+            .owl-controls {
+                width: 195px;
+                top: 37px;
+            }
+
+            .text {
+                padding: 209px 19px 0;
+
+                p {
+                    line-height: 17px;
+                }
+            }                      
+        }
+
+        .carousel2 {
+            .owl-controls {
+                width: 215px;
+                left: 12px;
+            } 
+        }
+    }    
+
+
+}

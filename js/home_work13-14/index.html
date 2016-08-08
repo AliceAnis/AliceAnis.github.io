@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework_13-14</title>
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/templating.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="required">
+            <p>Вы ответили не на все вопросы!</p>
+            <button id="continue">Продолжить тест</button>
+        </div>
+    </div>
+    <script type="text/template" id="myTest">
+        <h1>Тест по программированию</h1>
+        <form action="#" method="post">
+            <% for ( var i = 0; i < questions.length; i++ ) { %>
+                <div class="question_block">
+                    <p><%= (i + 1) + "." + questions[i].title %></p>
+                    <% for ( var a = 0; a < questions[i].answers.length; a++ ) { %>
+                        <div>
+                            <input type="radio"
+                            name="<%= questions[i].name %>"
+                            data-answer-number="<%= a %>" 
+                            id="<%= questions[i].name + '_' + a %>" />
+                            <label for="<%= questions[i].name + '_' + a %>"><%= questions[i].answers[a] %></label>
+                        </div>
+                    <% }; %>                
+                </div>                
+            <% } %>
+            <button id="check_result">Проверить мои результаты</button>
+        </form>
+    </script>
+    
+</body>
+</html>

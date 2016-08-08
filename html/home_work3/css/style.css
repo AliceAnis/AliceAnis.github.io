@@ -1,0 +1,132 @@
+@import url(reset.css);
+
+body {
+	background-color: #f9f9f9;
+}
+
+.wrapper {
+	width: 975px;
+	background-color: #ffffff;
+	padding: 50px;
+	margin: 0 auto;
+	box-shadow: 0 0 3px 0 #ccc;
+}
+
+.logo {
+	height: 80px;
+}
+
+.logo a {
+	height: 80px;
+	display: block;
+	width: 160px;
+}
+
+.navHeader {
+	height: 40px;
+	background: linear-gradient(to top, #444343, #5e5e5e);
+}
+
+.navHeader li, .footer li {	
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.navHeader li a {	
+	color: #ffffff;
+	text-decoration: none;
+	font: 15px Tahoma, sans-serif;
+	text-shadow: 2px 2px 2px #373737;
+	padding:  10px 23px;
+	margin-right: 38px;
+	border: 1px solid transparent;
+}
+
+.navHeader li a:hover {
+	background: linear-gradient(to top, #2f2f2f, #4a4a4a);
+	border-right: 1px solid #838383;
+	border-left: 1px solid #838383;	
+}
+
+.content {
+	margin-top: 40px;
+}
+
+.content:after {
+	clear: both;
+	display: block;
+	content: "";
+}
+
+.sideBar {
+	float: left;
+	border: 1px solid  #c8c8c8;
+	border-bottom: none;
+	width: 240px;		
+}
+
+.sideBar li a {
+	display: block;
+	height: 40px;
+	font: 14px Tahoma, sans-serif;
+	color: #656363;
+	text-decoration: none;
+	line-height: 40px;
+	padding-left: 23px;
+ 	border-bottom: 1px solid  #c8c8c8;	
+ 	transition: 0.5s all;
+}
+
+.sideBar li a:hover {
+	background-color: #f9f9f9;
+	color: #2c2c2c;
+	padding-left: 35px;
+}
+
+.imageText {
+	width: 680px;
+	float: left;
+	margin-left: 50px;
+}
+.image {
+	height: 295px;
+	border: 1px solid #c8c8c8;	
+	padding: 53px 95px;
+}
+
+.text {
+	margin-top: 35px;
+	padding: 0 22px 20px;
+	font: 14px Tahoma, sans-serif;
+	color: #2c2c2c;
+	line-height: 20px;
+}
+
+.footer {
+	background-color: #e1e1e1;
+	font: 14px Tahoma, sans-serif;	
+	margin-top: 45px;
+	position: relative;
+}
+
+.footer li a {
+	color: #2c2c2c;
+	text-decoration: none;	
+	padding: 0 25px;
+	margin-right: 38px;
+	display: block;
+
+}
+
+.footer li a:hover {
+	text-decoration: underline;
+}
+
+.footer p {
+	position: absolute;
+	right: 25px;
+	top: 10px;
+}

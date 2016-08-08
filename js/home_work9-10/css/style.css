@@ -1,0 +1,48 @@
+body {
+	background-color: #f5e05a;
+	width: 100%;
+}
+
+.logo {
+	width: 100%;
+	height: 140px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.logo a {
+	display: block;
+	text-decoration: none;
+	color: #0b6120;
+	font: bold 80px Verdana, sans-serif;
+}
+
+.select {
+	margin-left: 20px;
+}
+
+.selectBox-dropdown {
+	min-width: 200px;
+	color: #0b6120;
+	border: solid 1px #0b6120;
+	background: #ffff9a;
+	font-family: Verdana;
+}
+
+.selectBox-dropdown .selectBox-arrow {
+	border-left: solid 1px #0b6120;
+}
+
+.selectBox-dropdown-menu {
+	border: solid 1px #0b6120;
+	background: #fffadc;
+}
+
+.selectBox-options LI.selectBox-hover A {
+    background-color: #cbe23c;
+}
+
+.selectBox-options LI.selectBox-selected A {
+    background-color: #ffd042;
+}
+

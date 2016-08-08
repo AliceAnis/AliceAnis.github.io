@@ -1,0 +1,9 @@
+@media #{$phonePortrait} {
+    @import '../mobile';
+
+    & {
+    	h1 {
+    		color: $color1;
+    	}
+    }
+}

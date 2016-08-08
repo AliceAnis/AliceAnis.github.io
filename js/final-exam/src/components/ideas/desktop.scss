@@ -1,0 +1,43 @@
+& {
+	h3 {
+		font: bold 22px 'Monserrat', sans-serif;
+		color: $color1;
+		margin-top: 98px;
+		text-align: center;
+		letter-spacing: 0.7px;
+	}
+
+	.grid {
+		max-width: 940px;
+		margin: 32px auto 0;
+		height: 970px;
+
+		.grid-sizer {
+			width: 300px;
+		}
+
+		.grid-item {
+			width: 300px;			
+			margin-bottom: 10px;
+			position: relative;
+
+			img {
+				width: 100%;
+				display: block;
+				border-radius: 5px;
+			}
+
+			h3 {
+				font: bold 22px 'Montserrat', sans-serif;
+				color: $color2;
+				width: 100%;
+				position: absolute;
+				left: 0;
+				top: 43%;
+				text-align: center;
+				text-transform: capitalize;
+				margin-top: 0;
+			}
+		}
+	}
+}

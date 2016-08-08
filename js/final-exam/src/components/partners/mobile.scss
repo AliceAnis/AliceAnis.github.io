@@ -1,0 +1,161 @@
+& {
+	width: 100%;
+
+	.partners_wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	h3 {
+		font: bold 22px 'Montserrat', sans-serif;
+		color: $color1;
+		text-align: center;
+		margin-top: 34px;
+		padding: 0 21px;
+	}
+
+	.partners_items {
+		margin-top: 13px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+
+		.partners_item {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			margin-bottom: 28px;			
+
+			.partners_photo {
+				position: relative;
+				width: 120px;
+				height: 120px;
+				border-radius: 60px;
+
+				.partners_pic {
+					position: absolute;
+					right: -4px;
+					top: 84px;
+					width: 40px;
+					height: 40px;
+					border: 4px solid $color2;
+					border-radius: 25px;
+					box-sizing: border-box;
+
+					.partners_icon {
+						margin: 6px 9px;
+					}
+				}
+			}
+
+			h4 {
+				font: bold 14px 'Montserrat', sans-serif;
+				color: $color1;
+				margin: 19px 0 11px;
+			}
+
+			p {
+				width: 216px;
+				font: 14px 'Roboto Light', sans-serif;
+				color: $color3;
+				text-align: center;
+				line-height: 17px;
+			}
+		}
+
+		.item_1 {
+
+			.partners_photo {
+				background-image: url(../images/bradley_boy.jpg);
+
+				.partners_pic {
+					background-color: $color4;
+				}
+
+				.partners_icon {
+					width: 17px;
+					height: 18px;
+					background: url(../images/icon_partners.png) 0 0 no-repeat;
+				}
+			}			
+		}
+
+		.item_2 {
+
+			.partners_photo {
+				background-image: url(../images/lucas.jpg);
+
+				.partners_pic {
+					background-color: $color5;
+				}
+
+				.partners_icon {
+					width: 16px;
+					height: 18px;
+					background: url(../images/icon_partners.png) -51px 0 no-repeat;
+				}
+			}			
+		}
+
+		.item_3 {
+
+			.partners_photo {
+				background-image: url(../images/heather.jpg);
+
+				.partners_pic{
+					background-color: $color6;
+				}
+
+				.partners_icon {
+					width: 16px;
+					height: 18px;
+					background: url(../images/icon_partners.png) -35px 0 no-repeat;
+				}
+			}			
+		}
+
+		.item_4 {
+
+			margin-bottom: 26px;
+
+			.partners_photo {
+				background-image: url(../images/bradley_girl.jpg);
+
+				.partners_pic {
+					background-color: $color7;
+				}
+
+				.partners_icon {
+					width: 16px;
+					height: 18px;
+					background: url(../images/icon_partners.png) -19px 0 no-repeat;
+				}
+			}			
+		}
+	}
+
+	button {
+		width: 280px;
+		height: 40px;
+		box-sizing: border-box;
+		border: 2px solid $color4;
+		border-radius: 20px;
+		color: $color4;
+		font: bold 14px 'Montserrat', sans-serif;
+		text-align: center;
+		line-height: 40px;
+		margin: 0 auto;
+		background-color: $color2;
+		transition: all .5s ease 0s;
+		display: block;
+
+		&:hover {
+			background-color: $color4;
+			color: $color2;
+		}
+	}
+}

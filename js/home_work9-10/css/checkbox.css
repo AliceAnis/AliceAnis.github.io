@@ -1,0 +1,62 @@
+.checkbox {
+	margin: 30px 0 30px 20px;
+	font: 13px Verdana, sans-serif;
+	color: #0b6120;
+}
+
+.question {
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.checkbox_css {
+	margin-bottom: 20px;
+}
+
+.check {
+	width: 17px;
+	height: 17px;
+	padding-left: 21px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../image/checkbox-sprite.png) no-repeat;
+	margin-bottom: 4px;
+}
+
+.check input {
+	display: none;
+}
+
+.checkbox_css input[type=checkbox] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.checkbox_css label {
+    cursor: pointer;
+}
+
+.checkbox_css label:before {
+    content: " ";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(../image/checkbox-sprite.png);
+    position: relative;
+    top: 3px;
+    margin-right: 4px;
+}
+
+.checkbox_css input[type=checkbox]:checked + label:before {
+	background-position: 0 -17px;
+}
+
+.checkbox_css label:hover:before {
+	background-position: 0 -34px;
+}
+
+.checkbox_css input[type=checkbox]:checked + label:hover:before {
+	background-position: 0 -51px;
+}
+

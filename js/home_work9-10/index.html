@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 10</title>
+	<link type="text/css" rel="stylesheet" href="css/reset.css">	
+	<link type="text/css" rel="stylesheet" href="css/carousel.css">
+	<link type="text/css" rel="stylesheet" href="css/menu.css">
+	<link type="text/css" rel="stylesheet" href="css/checkbox.css">
+	<link rel="stylesheet" type="text/css" media="all" href="css/jquery.selectBox.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/jcarousel.js"></script>	
+	<script type="text/javascript" src="js/jquery.color2.js"></script>
+	<script type="text/javascript" src="js/jquery.selectBox.js"></script>
+	<script type="text/javascript" src="js/jquery.checkbox.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="#">Logo</a>
+		</div>
+		<nav>
+			<ul class="menu">
+				<li class="item"><a href="#">Nav 1</a></li>
+        		<li class="item"><a href="#">Nav 2</a></li>
+        		<li class="item uncover" id="unc"><a href="#">Nav 3</a>
+            		<ul class="submenu">
+		                <li class="submenu_item"><a href="">Nav 3.1</a></li>
+		                <li class="submenu_item"><a href="">Nav 3.2</a></li>
+		                <li class="submenu_item"><a href="">Nav 3.3</a></li>
+		                <li class="submenu_item uncover"><a href="">Nav 3.4</a>
+                    		<ul class="submenu">
+                        		<li class="submenu_item"><a href="#">Nav 3.4.1</a></li>
+                        		<li class="submenu_item uncover"><a href="#">Nav 3.4.2</a>
+                            		<ul class="submenu">
+		                                <li class="submenu_item"><a href="#">Nav 3.4.2.1</a></li>
+		                                <li class="submenu_item"><a href="#">Nav 3.4.2.2</a></li>
+		                                <li class="submenu_item"><a href="#">Nav 3.4.2.3</a></li>
+		                                <li class="submenu_item"><a href="#">Nav 3.4.2.4</a></li>
+		                                <li class="submenu_item"><a href="#" class="last">Nav 3.4.2.5</a></li>
+		                            </ul>
+		                        <li class="submenu_item"><a href="#">Nav 3.4.3</a></li>
+		                        <li class="submenu_item"><a href="#">Nav 3.4.4</a></li>
+		                        <li class="submenu_item"><a href="#" class="last">Nav 3.4.5</a></li>
+		                    </ul>
+                    	<li class="submenu_item"><a href="#" class="last">Nav 3.5</a></li>
+                    </ul>
+               	<li class="item"><a href="#">Nav 4</a></li>
+				<li class="item"><a href="#">Nav 5</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="wrapper">
+		<div class="jcarousel-wrapper">
+			<div class="jcarousel">
+				<ul>
+		            <li><img src="image/cat_1.jpg" alt="#"></li>
+		            <li><img src="image/cat_2.jpg" alt="#"></li>
+		            <li><img src="image/cat_3.jpg" alt="#"></li>
+		            <li><img src="image/cat_4.jpg" alt="#"></li>
+		            <li><img src="image/cat_5.jpg" alt="#"></li>
+				</ul>
+			</div>
+			<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+	        <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+	        <div class="jcarousel-pagination">
+	        	<a href="#1" class="active"></a>
+		        <a href="#2"></a>
+				<a href="#3"></a>
+				<a href="#4"></a>
+				<a href="#5"></a>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jcarousel-basic.js"></script>
+	</div>
+	<div class="select">		
+	        <select name="city">
+	            <option selected="selected" value="#">Выберите город</option>
+	            <option value="1">Лондон</option>
+	            <option value="2">Париж</option>
+	            <option value="3">Киев</option>
+	            <option value="4">Омск</option>
+	            <option value="5">Мальме</option>
+	            <option value="6">Вашингтон</option>
+        	</select>
+	</div>
+	<div class="checkbox">
+		<div class="checkbox_css">
+			<p class="question">Ваше домашнее животное:</p>
+			<p>
+				<input type="checkbox" id="cat">
+				<label for="cat">Кошка</label>
+			</p>
+			<p>
+				<input type="checkbox" id="dog">
+				<label for="dog">Собака</label>
+			</p>
+			<p>
+				<input type="checkbox" id="horse">
+				<label for="horse">Лошадь</label>
+			</p>
+			<p>
+				<input type="checkbox" id="rabbit">
+				<label for="rabbit">Кролик</label>
+			</p>
+		</div>
+		<div class="checkbox_js">
+			<p class="question">Ваше имя:</p>
+			<p>
+				<span class="check"><input type="checkbox" name="name_1">Павел</span>
+			</p>
+			<p>
+				<span class="check"><input type="checkbox" name="name_2">Дмитрий</span>		
+			</p>
+			<p>
+				<span class="check"><input type="checkbox" name="name_3">Александр</span>
+			</p>
+			<p>
+				<span class="check"><input type="checkbox" name="name_4">Николай</span>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

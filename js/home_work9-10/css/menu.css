@@ -1,0 +1,81 @@
+nav {
+	width: 100%;
+	background-color: #0b6120;
+}
+
+.menu li {
+	width: 150px;	
+	display: inline-block;	
+	text-align: center;	
+}
+
+.menu a {
+	font: 14px Verdana, sans-serif;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.menu a:hover {
+	color: #000;
+}
+
+.menu .uncover {
+	position: relative;
+}
+
+.menu .uncover:after {
+	content: "";
+	background: url(../image/arrow-down.png) no-repeat center center;
+	width: 8px;
+	height: 4px;
+	position: absolute;
+	top: 25px;
+	left: 105px;
+}
+
+.submenu {
+	display: none;
+	width: 200px;
+    position: absolute;
+    top: 45px;
+    left: 11px;
+    background-color: #92bd24;
+	z-index: 2;
+	box-sizing: border-box;
+}
+
+.submenu li {
+	width: 100%;
+	text-align: left;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.submenu a {	
+	border-bottom: 1px solid #0b6120;
+	padding: 10px 0;
+}
+
+.submenu .last {
+	border-bottom: 0;
+}
+
+.submenu .uncover:after {
+	background: url(../image/arrow-down1.png) no-repeat center center;
+	width: 4px;
+	height: 8px;
+	top: 16px;
+	left: 170px;
+}
+
+.uncover {
+	position: relative;
+}
+
+.submenu .uncover .submenu {
+	position: absolute;
+	left: 200px;
+	top: 0;
+}

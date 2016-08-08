@@ -1,0 +1,56 @@
+table {
+	width: 450px;
+	margin: 150px auto;
+	border: 2px solid #000;
+}
+
+table td {
+	border: 2px solid #000;
+}
+
+.yellow {
+	background-color: #ffeb65;
+}
+
+.red {
+	background-color: #ff6644;
+}
+
+.blue {
+	background-color: #09407e;
+}
+
+.black {
+	background-color: #000000;
+}
+
+.first {
+	height: 50px;
+}
+.second, .third {
+	height: 132px;
+}
+
+.fourth {
+	height: 58px;
+}
+
+.fifth {
+	height: 58px;
+}
+.sixth, .seventh {
+	height: 36px;
+}
+
+.one {
+	width: 50px;
+}
+
+.two {
+	width: 58px;
+}
+
+.three {
+	width: 129px;
+}
+

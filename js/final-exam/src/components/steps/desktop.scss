@@ -1,0 +1,127 @@
+& {
+	width: 100%;
+	padding-top: 94px;
+
+	h3 {
+		font: bold 22px 'Montserrat', sans-serif;
+		color: $color1;
+		display: block;
+		text-align: center;
+	}
+
+	.steps-wrapper {
+		max-width: 940px;
+		margin: 35px auto 0;
+		box-sizing: border-box;		
+
+		.owl-carousel {
+			width: 300px;
+			height: 400px;
+			margin: 0;
+			display: inline-block;
+			margin-right: 16px;
+			box-sizing: border-box;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			.container {
+				width: 300px;
+				height: 400px;
+				position: relative;
+			}
+
+			.text {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				padding: 227px 20px 0;
+				box-sizing: border-box;
+			}		
+
+			.container1 {
+				background: url(../images/slider_desk1.png) center no-repeat;
+			}
+
+			.container2 {
+				background: url(../images/slider_desk2.png) center no-repeat;
+
+				.text {
+					padding-top: 257px;
+				}
+			}
+
+			.container3 {
+				background: url(../images/slider_desk3.png) center no-repeat;
+			}
+
+			.owl-controls {
+				position: absolute;
+				width: 260px;
+				height: 57px;
+				top: 153px;
+				left: 22px;
+				color: transparent;
+
+				.owl-nav {
+					position: relative;
+				}
+
+				.owl-prev {
+					height: 57px;
+					width: 30px;
+					position: absolute;
+					left: 0;
+					top: 0;
+					background: url(../images/arrows.png) 0 0 no-repeat;
+				}
+
+				.owl-next {
+					height: 57px;
+					width: 30px;
+					position: absolute;
+					right: 0;
+					top: 0;
+					background: url(../images/arrows.png) -31px 0 no-repeat;
+				}	
+			}		
+
+		h3 {
+			font: bold 24px 'Montserrat', sans-serif;
+			color: $color2;
+			margin: 14px 0 11px;
+			text-align: left;
+		}
+
+		p {
+			font: 14px 'Roboto Light', sans-serif;
+			color: $color3;
+			line-height: 16px;
+		}
+
+		a {
+			width: 70px;
+			padding: 6px 0 5px 2px;
+			text-align: center;
+			display: block;
+			font: 10px 'Montserrat', sans-serif;
+			color: $color2;
+			text-decoration: none;
+			text-transform: uppercase;
+			background-color: $color4;
+			border-radius: 20px;
+			transition: all 0.5s ease 0s;
+			letter-spacing: 2px;
+
+			&:hover {
+				background-color: $color2;
+				color: $color4;
+			}
+		}
+	}	
+		
+	}
+}

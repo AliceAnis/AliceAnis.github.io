@@ -1,0 +1,76 @@
+@import url(reset.css);
+
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: Tahoma;
+}
+
+body a {
+	color: #ffffff;
+	font-family: Tahoma;
+}
+
+.wrapper {
+	width: 840px;
+	background-image: url(../img/bgBlack.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding: 55px 70px 0 70px;
+}
+
+.header {
+	position: relative;	
+}
+
+.header a {
+	display: block;
+	width: 106px;
+	background-image: url(../img/palm.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	position: relative;
+	padding: 120px 80px 15px;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.header a img {
+	position: absolute;
+	top: 75px;
+	left: 0;	
+}
+
+.contact {
+	position: absolute;
+	font: 10px Tahoma;
+	top: 93px;
+	right: 35px;
+}
+
+.phone {
+	font-size: 9px;
+	line-height: 12px;
+}
+
+.content li {
+	display: inline-block;
+	width: 270px;
+	margin: 0 2px 50px 0;
+}
+
+.content a {
+	display: block;
+	width: 270px;
+	font-size: 15px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 10px;
+}
+
+.footer {
+	height: 40px;
+	margin-top: 140px;
+	font-size: 10px;
+	text-align: center;
+}
