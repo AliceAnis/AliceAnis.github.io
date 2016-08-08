@@ -1,0 +1,216 @@
+@media #{$tabletPortrait} {
+    $m: tabletPortrait;
+
+    @import '../desktop';
+
+    & {
+        justify-content: space-between;
+        height: auto;
+        padding: px(106, $m) px(116, $m);
+
+        // ONLINE
+        .online {
+            order: 1;
+            width: px(600, $m);
+            height: px(1060, $m);
+            padding: 0;
+
+            .icon {
+                height: px(202, $m);
+
+                img {
+                    width: px(160, $m);
+                    margin-left: px(58, $m);
+                }
+            }
+
+            .title {
+                font-size: px(50, $m);
+                font-weight: 700;
+            }
+
+            .text1,
+            .text2 {
+                font-size: px(34, $m);
+            }
+
+            .text-desk {
+                height: px(92, $m);
+                margin-bottom: 0;
+                font-size: px(34, $m);
+                line-height: px(44, $m);
+            }
+
+            .text2 {
+                height: px(66, $m);
+                margin-left: px(14, $m);
+            }
+
+            .application {
+                width: px(570, $m);
+                height: px(152, $m);
+                margin: 0;
+
+                a {
+                    width: px(146, $m);
+                    height: px(146, $m);
+                }
+
+                .icon {
+                    width: px(146, $m);
+                    height: px(146, $m);
+                }
+
+                .android {
+                    background-size: px(88, $m);
+                }
+
+                .android:hover {
+                    background-size: px(88, $m);
+                }
+
+                .apple {
+                    background-size: px(80, $m);
+                }
+
+                .apple:hover {
+                    background-size: px(80, $m);
+                }
+            }
+
+            .download {
+                width: px(240, $m);
+                background-position: 77px 0, 0 63px;
+            }
+
+            .download p {
+                margin: px(34, $m) px(10, $m) 0 0;
+                font-size: px(34, $m);
+                letter-spacing: 0;
+                line-height: px(34, $m);
+            }
+
+            .button {
+                width: px(460, $m);
+                height: px(114, $m);
+                margin-left: px(6, $m);
+                background-position: px(46, $m) px(36, $m);
+                background-size: px(42, $m);
+                font-size: px(34, $m);
+                line-height: px(114, $m);
+                text-indent: px(60, $m);
+            }
+        }
+
+        // end of ONLINE
+
+        // SATELLITE
+        .satellite {
+            order: 0;
+            height: px(1060, $m);
+            padding: 0;
+
+            .icon {
+                height: px(206, $m);
+
+                img {
+                    width: px(134, $m);
+                    margin-right: px(28, $m);
+                }
+            }
+
+            .title {
+                font-size: px(50, $m);
+            }
+
+            .text {
+                width: px(538, $m);
+                height: px(448, $m);
+                margin-left: 0;
+            }
+
+            .item {
+                padding: px(16, $m) 0 px(46, $m);
+                font-size: px(34, $m);
+            }
+
+            .label {
+                width: px(256, $m);
+                letter-spacing: -.1px;
+            }
+
+            .content {
+                width: px(248, $m);
+                letter-spacing: -.7px;
+            }
+
+            .content span {
+                display: none;
+                }
+
+            .button {
+                width: px(460, $m);
+                height: px(114, $m);
+                margin-left: px(16, $m);
+                background-position: px(36, $m) px(36, $m);
+                background-size: px(42, $m);
+                font-size: px(34, $m);
+                line-height: px(114, $m);
+                text-indent: px(102, $m);
+            }
+        }
+
+        // end of SATELLITE
+
+        // CABLE
+        .cable {
+            order: 3;
+            width: 100%;
+            height: px(580, $m);
+            padding: 0;
+
+            .icon {
+                width: px(258, $m);
+                height: px(202, $m);
+                margin-top: px(-126, $m);
+                background-color: $color1;
+
+                img {
+                    display: block;
+                    width: px(160, $m);
+                    margin: 0 auto;
+                }
+            }
+
+            .title {
+                margin: 0;
+                font-size: px(52, $m);
+            }
+
+            .text p {
+                width: px(1096, $m);
+                height: px(234, $m);
+                font-size: px(34, $m);
+                line-height: px(44, $m);
+            }
+
+            .button-desk {
+                display: none;
+            }
+
+            .arrow {
+                display: none;
+            }
+        }
+
+        // end of CABLE
+
+        .div-line2 {
+            order: 2;
+            height: px(6, $m);
+            margin-top: px(214, $m);
+        }
+
+    }
+
+}

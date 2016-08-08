@@ -1,0 +1,208 @@
+@media #{$phoneLandscape} {
+    $m: phoneLandscape;
+
+    @import '../mobile';
+
+    // SATELLITE
+
+    .satellite {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        order: 0;
+        height: px(650, $m);
+        padding: px(54, $m) px(38, $m) px(56, $m) px(66, $m);
+
+        .icon {
+            order: 2;
+            width: px(460, $m);
+
+            img {
+                margin-left: px(120, $m);
+            }
+        }
+
+        .text {
+            flex-wrap: wrap;
+            order: 4;
+            width: px(528, $m);
+            height: px(332, $m);
+            padding-top: 0;
+        }
+
+        .item {
+            flex-wrap: wrap;
+            width: px(260, $m);
+            margin-right: px(38, $m);
+            padding: px(16, $m) 0 px(32, $m);
+        }
+
+        .channel {
+            order: 0;
+        }
+
+        .speed {
+            order: 1;
+        }
+
+        .freq {
+            order: 2;
+        }
+
+        .polarise {
+            order: 3;
+        }
+
+        .satel {
+            order: 4;
+        }
+
+        .label {
+            text-align: left;
+        }
+
+        .content {
+            line-height: 16px;
+        }
+
+        .title {
+            order: 0;
+            width: px(434, $m);
+            height: px(76, $m);
+        }
+
+        .divider {
+            order: 1;
+            width: px(6, $m);
+            height: px(60, $m);
+            margin-top: 0;
+        }
+
+        .tuner {
+            order: 3;
+            margin: px(8, $m) 0 0 px(26, $m);
+        }
+
+        .instruct {
+            display: block;
+        }
+    }
+
+ // end of SATELLITE
+
+    .div-line1 {
+        order: 1;
+        width: 99%;
+    }
+
+    .div-line2 {
+        order: 3;
+    }
+
+ // ONLINE
+    .online {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        order: 2;
+        height: px(692, $m);
+        padding: px(60, $m) px(114, $m) px(76, $m) px(60, $m);
+
+        .icon {
+            order: 0;
+            width: px(280, $m);
+
+            img {
+                width: px(134, $m);
+                margin-left: px(132, $m);
+            }
+        }
+
+        .divider {
+            order: 1;
+            width: px(6, $m);
+            height: px(60, $m);
+        }
+
+        .title {
+            order: 2;
+            height: px(60, $m);
+            margin-right: px(56, $m);
+        }
+
+        .text1 {
+            order: 3;
+            width: px(360, $m);
+            height: px(100, $m);
+            text-align: right;
+        }
+
+        .application {
+            order: 4;
+            width: px(520, $m);
+            height: px(150, $m);
+        }
+
+        .text2 {
+            order: 5;
+            width: px(358, $m);
+            height: px(72, $m);
+            text-align: right;
+        }
+
+        .button {
+            order: 6;
+            margin-right: px(140, $m);
+        }
+    }
+
+ // end of ONLINE
+
+ // CABLE
+    .cable {
+        flex-direction: row;
+        flex-wrap: wrap;
+        order: 4;
+        height: px(574, $m);
+        padding: px(38, $m) px(58, $m) px(88, $m) px(92, $m);
+
+        .title {
+            order: 0;
+            width: px(402, $m);
+            height: px(40, $m);
+            margin-left: px(34, $m);
+        }
+
+        .divider {
+            order: 1;
+            width: px(6, $m);
+            height: px(60, $m);
+        }
+
+        .icon {
+            order: 2;
+            width: px(468, $m);
+
+            img {
+                width: px(130, $m);
+                margin-left: px(160, $m);
+            }
+        }
+
+        .button {
+            order: 3;
+            margin-top: px(30, $m);
+        }
+
+        .text {
+            order: 4;
+            width: px(508, $m);
+        }
+
+        .text p {
+            height: px(200, $m);
+            text-align: left;
+        }
+    }
+// end of CABLE
+}

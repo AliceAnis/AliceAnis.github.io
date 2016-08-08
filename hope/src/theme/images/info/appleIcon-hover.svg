@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="80mm"
+   height="98mm"
+   viewBox="0 0 283.46457 347.24409"
+   id="svg8076"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="appleIcon-hover.svg">
+  <defs
+     id="defs8078" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="209.66968"
+     inkscape:cy="188.62074"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="962"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata8081">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-705.11811)">
+    <g
+       transform="matrix(3.5340368,0,0,3.5355743,1.0695589,705.93419)"
+       id="g7516"
+       style="fill:#ffffff;fill-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         class="st0"
+         d="M 66.8,52.1 C 66.7,39.7 77,33.7 77.4,33.4 71.6,25 62.6,23.8 59.4,23.7 c -7.7,-0.8 -14.9,4.5 -18.8,4.5 -3.9,0 -9.9,-4.4 -16.2,-4.3 -8.3,0.1 -16,4.8 -20.3,12.3 -8.7,15 -2.2,37.2 6.2,49.4 4.1,6 9,12.6 15.5,12.4 6.2,-0.2 8.6,-4 16.1,-4 7.5,0 9.6,4 16.2,3.9 6.7,-0.1 10.9,-6.1 15,-12 4.7,-6.9 6.7,-13.6 6.8,-13.9 0,-0.2 -13,-5.1 -13.1,-19.9 z M 54.4,15.6 C 57.8,11.5 60.1,5.7 59.5,0 54.6,0.2 48.6,3.3 45,7.4 c -3.2,3.7 -6,9.5 -5.2,15.2 5.6,0.4 11.2,-2.8 14.6,-7 z"
+         id="path7518"
+         style="fill:#ffffff;fill-opacity:1" />
+    </g>
+  </g>
+</svg>
