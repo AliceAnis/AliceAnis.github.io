@@ -193,7 +193,6 @@ header {
 }
 
 .slider__buttons button:hover {
-	background-color: #99cc33;
 	background: linear-gradient(to bottom, #669900 50%, #84ad32);
 }
 
