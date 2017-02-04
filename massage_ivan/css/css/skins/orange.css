@@ -1,0 +1,136 @@
+body {
+  color: #592d06;
+  letter-spacing: 1px; }
+
+a {
+  color: #e07c07; }
+
+p {
+  color: #323231; }
+
+.color_element {
+  color: #e07c07; }
+
+.color_bg {
+  background-color: #e07c07; }
+
+.color_border {
+  border-color: #e07c07; }
+
+.bg_light {
+  background-color: #fff; }
+
+.header_bg {
+  background-color: #592d06; }
+
+.logo_container svg path {
+  fill: #e07c07; }
+
+.header_menu a {
+  color: #592d06; }
+.header_menu a:hover {
+  color: #e07c07; }
+
+.toggle_mnu {
+  background-color: #e07c07; }
+
+.top_mnu a {
+  color: #fff; }
+.top_mnu a:hover {
+  color: #e07c07; }
+
+.title_text h1,
+.title_text p {
+  color: #fff; }
+
+.header_buttons button {
+  border: 1px solid #592d06;
+  background-color: #fff;
+  color: #592d06; }
+.header_buttons button:hover {
+  background-color: #592d06;
+  color: #fff; }
+
+section h2 {
+  color: #592d06; }
+section h3 {
+  color: #e07c07;
+  letter-spacing: 2px; }
+section h4 {
+  letter-spacing: 2px; }
+section .theme_color {
+  color: #e07c07; }
+section li {
+  color: #323231; }
+
+.articles,
+.documents {
+  background-color: #ef9e41; }
+  .articles h2,
+  .documents h2 {
+    color: #323231; }
+  .articles button,
+  .documents button {
+    color: #592d06;
+    background-color: #fff; }
+  .articles .article,
+  .documents .article {
+    background-color: #fff; }
+    .articles .article a,
+    .documents .article a {
+      color: #592d06;
+      letter-spacing: 2px; }
+    .articles .article a:hover,
+    .documents .article a:hover {
+      color: #e07c07; }
+
+.price,
+.gallery {
+  background-color: #323231; }
+  .price h2,
+  .price .describe p,
+  .price table,
+  .gallery h2,
+  .gallery .describe p,
+  .gallery table {
+    color: #fff; }
+  .price .describe::after,
+  .gallery .describe::after {
+    background-color: #fff; }
+  .price th,
+  .gallery th {
+    color: #e07c07; }
+
+.myself_icon i {
+  color: #e07c07; }
+
+.about_massage {
+  background-color: #fff; }
+  .about_massage h3 {
+    background-color: #ef9e41;
+    color: #fff; }
+  .about_massage button {
+    background-color: #e07c07;
+    color: #fff; }
+  .about_massage button:hover {
+    background-color: #ef9e41; }
+
+.gallery ul li {
+  letter-spacing: 1.5px; }
+.gallery ul li.active {
+  color: #ef9e41; }
+
+.item_container h3 {
+  color: #ef9e41;
+  letter-spacing: 1.5px; }
+.item_container a {
+  color: #ef9e41;
+  border: 1px solid #ef9e41; }
+
+.port_descr {
+  background-color: #000; }
+  .port_descr h3,
+  .port_descr p {
+    color: #ef9e41; }
+
+/*# sourceMappingURL=orange.css.map */

@@ -1,9 +1,0 @@
-@media #{$phoneLandscape} {
-    $m: phoneLandscape;
-
-    @import '../mobile';
-
-    h1 {
-        color: $color2;
-    }
-}

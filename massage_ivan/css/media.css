@@ -1,0 +1,296 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.header_menu li {
+		padding: 10px 2%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	body {
+		font-size: 12px;
+	}
+
+	.header_menu li {
+		padding: 10px 1%;
+	}
+
+	.header_buttons .subscribe {
+		width: 35%
+		font-weight: bold;
+	}
+
+	.articles .article {
+		height: 400px;
+		width: 100%;
+	}
+
+	.feedback .wrapper {
+		width: 670px;
+	}
+
+	.jcarousel-wrapper {
+		width: 650px;
+	}
+
+	.feedback_cont {
+		width: 650px;
+	}
+
+	.feedback_cont p {
+		font-size: 1em;
+	}
+
+	.jcarousel-control-prev {
+		left: -60px;
+		font-size: 3.5em;
+	}
+
+	.jcarousel-control-next {
+		right: -60px;
+		font-size: 3.5em;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	body {
+		font-size: 10px;
+	}
+
+	.header_menu {
+		display: none;
+	}
+	.toggle_mnu {
+		display: block;
+	}
+
+	.table_price {
+		width: 95%;
+	}
+
+	.table_desktop {
+		display: none;
+	}
+
+	.table_mobile {
+		display: block;
+	}
+
+	.documents {
+		display: none;
+	}
+
+	.describe {
+		margin-bottom: 75px;
+	}
+
+	.about_myself {
+		padding-bottom: 20px;
+	}
+
+	section .s_header h3,
+	section .s_header p,
+	section .s_content p,
+	section .s_content h3,
+	section .s_content h4,
+	section .s_content li,
+	section .s_content button,
+	#s_myself .s_content p,
+	#s_myself .s_content li {
+		font-size: 1.3em;
+	}
+
+	#s_myself .education li {
+		font-size: 1.1em;
+	}
+
+	#s_feedback .feedback_cont p {
+		font-size: 1em
+	}
+
+	.feedback .wrapper {
+		width: 460px;
+	}
+
+	.jcarousel-wrapper {
+		width: 440px;
+		height: 685px;
+	}
+
+	.feedback_cont {
+		width: 440px;
+	}
+
+	.feedback button,
+	.price button {
+		width: 35%;
+	}
+
+	.jcarousel-control-prev {
+		left: -15px;		
+	}
+
+	.jcarousel-control-next {
+		right: -15px;		
+	}
+
+	.articles .article {
+		max-width: 500px;
+		margin: 0 auto 20px;
+		height: 450px;
+	}
+
+	.articles .article p {
+		font-size: 1.2em;
+	}
+
+	.price h3,
+	.price th,
+	.price td {
+		font-size: 1.3em;
+	}
+
+	.descr_massage {
+		max-width: 90%;
+	}
+
+	.form-group,
+	.contact_box a,
+	.contacts button {
+		font-size: 1.3em
+	}
+
+	.adress {
+		margin-top: 40px
+	}
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.header_buttons .subscribe {
+		width: 80%
+	}
+
+	.price_button {
+		display: none;
+	}
+
+	.price .table_mobile th,
+	.price .table_mobile td {
+		font-size: 1em;
+		padding: 12px 2px;
+	}
+
+	section .s_content .table_mobile h3 {
+		font-size: 1em;
+	}
+
+	.logo_container {
+		margin-left: 5px;
+	}
+
+	.articles .article {
+		height: 400px;
+		width: 100%;
+	}
+
+	.about_massage button {
+		width: 40%;
+	}
+
+	.about_massage .massage_profit li,
+	.about_massage .massage_restrict li,
+	.about_massage .massage_effect li {
+		margin: 35px 0;
+		font-size: 1.1em
+	}
+	
+	.item_container h3 {
+		display: none;
+	}
+
+	.portfolio_item .item_container a {
+		padding: 8px;
+	}
+
+	.feedback .wrapper {
+		width: 310px;
+	}
+
+	.jcarousel-wrapper {
+		width: 300px;
+		height: 770px;
+	}
+
+	.feedback_cont {
+		width: 300px;
+	}	
+
+	.jcarousel-control-prev {
+		left: -10px;		
+	}
+
+	.jcarousel-control-next {
+		right: -10px;		
+	}
+
+
+	.feedback button,
+	.about_massage button,
+	.price button {
+		width: 80%;
+	}
+
+	#s_feedback .feedback_cont p {
+		font-size: 0.9em
+	}
+
+	.contacts button {
+		width: 80%;
+		margin: 30px auto;
+	}
+
+	.map iframe {
+		width: 90%;
+	}
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

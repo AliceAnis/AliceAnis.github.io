@@ -1,0 +1,184 @@
+body {
+  color: #323231;
+  letter-spacing: 1px; }
+
+a {
+  color: #229cbf; }
+
+p {
+  color: #5f5f5f; }
+
+.color_element {
+  color: #229cbf; }
+
+.color_bg {
+  background-color: #229cbf; }
+
+.color_border {
+  border-color: #229cbf; }
+
+.bg_light {
+  background-color: #fff; }
+
+.header_bg {
+  background-color: #323231; }
+
+.logo_container svg path {
+  fill: #229cbf; }
+
+.header_menu a {
+  color: #323231; }
+.header_menu a:hover {
+  color: #229cbf; }
+.header_menu li {
+  background: url(../../img/div_line_3.png) no-repeat right; }
+
+.toggle_mnu {
+  background-color: #229cbf; }
+
+.top_mnu a {
+  color: #fff; }
+.top_mnu a:hover {
+  color: #229cbf; }
+
+.title_text h1,
+.title_text p {
+  color: #fff; }
+
+.header_buttons button {
+  border: 1px solid #323231;
+  background-color: #fff;
+  color: #323231; }
+.header_buttons button:hover {
+  background-color: #323231;
+  color: #fff; }
+
+section h2 {
+  color: #323231; }
+section h3 {
+  color: #229cbf;
+  letter-spacing: 2px; }
+section h4 {
+  letter-spacing: 2px; }
+section .theme_color {
+  color: #229cbf; }
+section li {
+  color: #5f5f5f; }
+
+.social a {
+  color: #229cbf; }
+.social a:hover {
+  color: #66b4cb; }
+
+.articles,
+.documents {
+  background-color: #66b4cb; }
+  .articles h2,
+  .documents h2 {
+    color: #323231; }
+  .articles button,
+  .documents button {
+    color: #323231;
+    background-color: #fff; }
+  .articles .article,
+  .documents .article {
+    background-color: #fff; }
+    .articles .article a,
+    .documents .article a {
+      color: #323231;
+      letter-spacing: 2px; }
+    .articles .article a:hover,
+    .documents .article a:hover {
+      color: #229cbf; }
+
+.price,
+.gallery {
+  background-color: #323231; }
+  .price h2,
+  .price .describe p,
+  .price table,
+  .gallery h2,
+  .gallery .describe p,
+  .gallery table {
+    color: #fff; }
+  .price .describe::after,
+  .gallery .describe::after {
+    background-color: #fff; }
+  .price th,
+  .gallery th {
+    color: #229cbf; }
+
+.myself_icon i {
+  color: #229cbf; }
+
+.about_massage {
+  background-color: #fff; }
+  .about_massage h3 {
+    background-color: #66b4cb;
+    color: #fff; }
+  .about_massage button {
+    background-color: #229cbf;
+    color: #fff; }
+  .about_massage button:hover {
+    background-color: #66b4cb; }
+
+.gallery ul li {
+  letter-spacing: 1.5px; }
+.gallery ul li.active {
+  color: #66b4cb; }
+
+.item_container h3 {
+  color: #66b4cb;
+  letter-spacing: 1.5px; }
+.item_container a {
+  color: #66b4cb;
+  border: 1px solid #66b4cb; }
+
+.port_descr {
+  background-color: #000; }
+  .port_descr h3,
+  .port_descr p {
+    color: #66b4cb; }
+
+.contact_box .contact_icon {
+  color: #229cbf; }
+.contact_box h3 {
+  letter-spacing: 1.5px; }
+
+.contacts button {
+  background-color: #229cbf;
+  color: #fff; }
+.contacts button:hover {
+  background-color: #66b4cb; }
+
+.text-danger li {
+  color: red; }
+
+form input:focus,
+form textarea:focus {
+  box-shadow: 0 0 8px rgba(239, 158, 65, 0.8); }
+form input,
+form textarea {
+  border: 1px solid #229cbf;
+  letter-spacing: 2px; }
+
+.form-group {
+  color: #5f5f5f; }
+
+.feedback_cont h4 {
+  color: #5f5f5f; }
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+  color: #5f5f5f; }
+
+.feedback button {
+  background-color: #229cbf;
+  color: #fff; }
+.feedback button:hover {
+  background-color: #66b4cb; }
+
+.price th {
+  color: #229cbf; }
+
+/*# sourceMappingURL=blue.css.map */

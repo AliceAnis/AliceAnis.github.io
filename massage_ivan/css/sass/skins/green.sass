@@ -1,0 +1,195 @@
+@import "../bourbon/bourbon"
+
+$color: #0f9e07//Theme skin
+$text_color: #323231
+$main_color: #323231
+$bg_main: #fff
+$bg_2: #1eb316
+$pcolor: #5f5f5f
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+
+a
+	color: $color
+
+p
+	color: $pcolor
+
+.color_element
+	color: $color
+.color_bg
+	background-color: $color
+.color_border
+	border-color: $color
+.bg_light
+	background-color: $bg_main
+
+.header_bg
+	background-color: $main_color
+
+.logo_container
+	svg
+		path
+			fill: $color
+
+.header_menu
+	a
+		color: $main_color
+	a:hover
+		color: $color
+	li
+		background: url(../../img/div_line_2.png) no-repeat right
+
+.toggle_mnu
+	background-color: $color
+
+.top_mnu
+	a
+		color: $bg_main
+	a:hover
+		color: $color
+
+.title_text
+	h1,
+	p
+		color: $bg_main
+
+.header_buttons
+	button
+		border: 1px solid $main_color
+		background-color: $bg_main
+		color: $main_color
+	button:hover
+		background-color: $main_color
+		color: #fff	
+
+section
+	h2
+		color: $main_color
+	h3
+		color: $color
+		+kerning(2)
+	h4
+		+kerning(2)
+
+	.theme_color
+		color: $color
+	li
+		color: $pcolor
+
+.social
+	a		
+		color: $color
+	a:hover
+		color: $bg_2
+.articles,
+.documents
+	background-color: $bg_2
+	h2
+		color: $text_color		
+	button
+		color: $main_color
+		background-color: $bg_main	
+	.article
+		background-color: $bg_main
+		a
+			color: $main_color
+			+kerning(2)
+		a:hover
+			color: $color
+
+.price,
+.gallery
+	background-color: $text_color
+	h2,
+	.describe p,
+	table	
+		color: $bg_main
+	.describe::after
+		background-color: $bg_main	
+	th
+		color: $color
+
+.myself_icon
+	i
+		color: $color
+
+.about_massage
+	background-color: $bg_main
+	h3	
+		background-color: $bg_2
+		color: $bg_main
+	button
+		background-color: $color
+		color: $bg_main
+	button:hover
+		background-color: $bg_2
+.gallery
+	ul
+		li
+			+kerning(1.5)
+		li.active
+			color: $bg_2
+.item_container
+	h3	
+		color: $bg_2
+		+kerning(1.5)
+	a
+		color: $bg_2		
+		border: 1px solid $bg_2
+
+.port_descr
+	background-color: #000
+	h3,
+	p
+		color: $bg_2
+
+.contact_box
+	.contact_icon
+		color: $color
+	h3
+		+kerning(1.5)
+
+.contacts
+	button
+		background-color: $color
+		color: $bg_main
+	button:hover
+		background-color: $bg_2
+.text-danger
+	li
+		color: red
+
+form
+	input:focus,
+	textarea:focus
+		box-shadow: 0 0 8px rgba(239,158,65,0.8)
+	input,
+	textarea
+		border: 1px solid $color		
+		+kerning(2)
+.form-group
+	color: $pcolor
+
+.feedback_cont
+	h4
+		color: $pcolor
+
+.jcarousel-control-prev, 
+.jcarousel-control-next 
+	color: $pcolor
+
+.feedback
+	button
+		background-color: $color
+		color: $bg_main
+	button:hover
+		background-color: $bg_2
+.price
+	th
+		color: $color

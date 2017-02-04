@@ -1,9 +1,0 @@
-@media #{$tabletLandscape} {
-    $m: tabletLandscape;
-
-    @import '../desktop';
-
-    h1 {
-        color: $color3;
-    }
-}

@@ -1,9 +1,0 @@
-@media #{$phoneLandscape} {
-    $m: phoneLandscape;
-
-    @import '../mobile';
-
-    .header_logo {
-    	margin-top: 30px;
-    }
-}
