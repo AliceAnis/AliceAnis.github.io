@@ -12,7 +12,7 @@ h1 {
 	text-align: center;
 	padding: 60px 0 25px;
 	letter-spacing: 2.2px;
-	animation-delay: 0.8s;
+	animation-delay: 0.4s;
 }
 
 header p {
@@ -39,7 +39,7 @@ header p {
 
 .gallery_column {
 	width: 30%;
-	padding: 30px;	
+	padding: 3%;	
 }
 
 .gallery_column li {

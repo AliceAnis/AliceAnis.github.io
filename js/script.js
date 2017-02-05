@@ -5,5 +5,6 @@ $(document).ready(function() {
 
 	$(".animation_1").animated("fadeInLeft", "fadeOutLeft");
 	$(".animation_2").animated("fadeInRight", "fadeOutRight");
+	
 
 });
