@@ -131,10 +131,10 @@ section .choice {
   .about_massage h3 {
     background-color: #ef9e41;
     color: #fff; }
-  .about_massage button {
+  .about_massage button, .about_massage .price_button {
     background-color: #e07c07;
     color: #fff; }
-  .about_massage button:hover {
+  .about_massage button:hover, .about_massage .price_button:hover {
     background-color: #ef9e41; }
 
 .massage_details a {

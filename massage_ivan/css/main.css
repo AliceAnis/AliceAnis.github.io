@@ -261,19 +261,14 @@ body {
           text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
           margin-bottom: 10px;
           padding: 0 2%;
-          -webkit-animation-delay: 0.8s;
-          -moz-animation-delay: 0.8s;
-          animation-delay: 0.8s; }
+          -webkit-animation-delay: 2s;
+          -moz-animation-delay: 2s;
+          animation-delay: 2s; }
         .title_wrapper .title_descr .title_centered .title_text p {
           font-style: italic;
           font-size: 1.2em;
           text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
           padding: 0 3%;
-          -webkit-animation-delay: 0.8s;
-          -moz-animation-delay: 0.8s;
-          animation-delay: 0.8s; }
-        .title_wrapper .title_descr .title_centered .title_text .header_buttons {
-          margin-top: 100px;
           -webkit-animation-delay: 1s;
           -moz-animation-delay: 1s;
           animation-delay: 1s; }
@@ -318,6 +313,12 @@ body {
           font-weight: bold;
           margin-bottom: 20px; }
 
+.header_buttons {
+  margin-top: 100px;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s; }
+
 .subscribe {
   width: 25%;
   height: 45px;
@@ -326,6 +327,59 @@ body {
   -webkit-transition: all 300ms linear 0s;
   -moz-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s; }
+
+.form_enroll {
+  width: 40%;
+  margin: 200px auto 0;
+  background-color: #fff;
+  color: #5f5f5f;
+  border-radius: 10px;
+  padding: 30px;
+  font: 14px Verdana; }
+
+.form_item {
+  display: block;
+  margin: 20px 0; }
+
+.form_item input, .form_item textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #e07c07;
+  border-radius: 5px;
+  margin-top: 5px;
+  line-height: 40px;
+  text-indent: 12px;
+  font-size: 12px;
+  background-color: transparent;
+  letter-spacing: 2px; }
+
+.form_item input:focus {
+  box-shadow: 0 0 2px 2px rgba(224, 124, 7, 0.4); }
+.form_item textarea:focus {
+  box-shadow: 0 0 2px 2px rgba(224, 124, 7, 0.4); }
+
+.form_item span {
+  color: #e07c07; }
+
+.form_enroll p span {
+  color: #e07c07; }
+
+.feedback_send {
+  width: 40%;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  transition: all 300ms linear 0s;
+  background-color: #e07c07;
+  color: #fff;
+  margin: 30px auto;
+  display: block; }
+
+.form_enroll button:hover {
+  background-color: #ef9e41; }
 
 .h_opacity {
   opacity: 0.3;
@@ -568,7 +622,7 @@ section {
 .about_massage .massage_buttons {
   text-align: center;
   margin-top: 40px; }
-.about_massage button {
+.about_massage button, .about_massage .price_button {
   width: 20%;
   height: 45px;
   border-radius: 25px;
@@ -580,16 +634,20 @@ section {
   -moz-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s; }
 .about_massage .price_button {
-  margin-right: 30px; }
+  margin-right: 30px;
+  display: inline-block;
+  line-height: 45px;
+  outline: none; }
 .about_massage .text_bold {
   font-weight: bold; }
 .about_massage .text_italic {
-  font-style: italic;
-  margin-top: 30px; }
+  font-style: italic; }
 .about_massage .massage_kind ul {
   margin: 20px 0; }
   .about_massage .massage_kind ul li {
     padding: 10px 0; }
+.about_massage .massage_char {
+  margin-top: 30px; }
 
 .massage_details {
   text-align: center;
@@ -873,7 +931,7 @@ footer {
   border: none;
   font-size: 1.2em;
   font-weight: bold;
-  margin: 0 auto 50px;
+  margin: 20px auto 50px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
   display: block;
   -webkit-transition: all 300ms linear 0s;

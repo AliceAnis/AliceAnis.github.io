@@ -22,6 +22,18 @@
 		font-weight: bold;
 	}
 
+	.header_buttons {
+		margin-top: 50px;
+	}
+
+	.about_massage h3 {
+		font-size: 0.9em;
+	}
+	
+	.form_enroll {
+		width: 60%;
+	}
+
 	.articles .article {
 		height: 400px;
 		width: 100%;
@@ -67,6 +79,22 @@
 	.toggle_mnu {
 		display: block;
 	}
+
+	.subscribe {
+		width: 40%;
+	}
+
+	.about_massage .price_button {
+		display: none;
+	}
+
+	.about_massage button {
+		width: 40%;
+	}
+
+	.form_enroll {
+		width: 80%;
+	}	
 
 	.table_price {
 		width: 95%;
@@ -174,10 +202,22 @@
 @media only screen and (max-width : 480px) {
 
 	.header_buttons .subscribe {
-		width: 80%
+		width: 80%;
 	}
 
-	.price_button {
+	.header_buttons {
+		margin-top: 35px;
+	}
+
+	.form_enroll {
+		width: 95%;
+	}
+
+	.feedback_send {
+		width: 80%;
+	}
+
+	.about_massage .price_button {
 		display: none;
 	}
 

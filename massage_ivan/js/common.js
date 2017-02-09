@@ -10,7 +10,23 @@ $(document).ready(function() {
 	$(".popup").magnificPopup({type:'image'});
 	$(".popup_content").magnificPopup({type:"inline", midClick: true});
 
-	$(".title_text h1, .title_text p").animated("fadeInDown", "fadeOutUp");
+	$('.feedback button').magnificPopup({
+		items: {
+			src: '#feedback_popup',
+			type: 'inline'
+		}
+	});
+
+	$('.header_buttons button, .price button, .about_massage button').magnificPopup({
+		items: {
+			src: '#enroll_popup',
+			type: 'inline'
+		}
+	});
+
+	$('select').styler();
+
+	$(".title_text h1, .title_text > p").animated("fadeInDown", "fadeOutUp");
 	$(".s_header, .massage_details").animated("fadeInUp", "fadeOutDown");	
 
 	$(".animation_1").animated("flipInY", "flipOutY");
@@ -55,7 +71,7 @@ $(document).ready(function() {
 
 	$("input, select, textarea").not("[type=submit]").jqBootstrapValidation();
 
-	$(".top_mnu ul a, .header_menu ul a, .choice a, .title_centered a").mPageScroll2id();
+	$(".top_mnu ul a, .header_menu ul a, .choice a, .title_centered a, .price_button").mPageScroll2id();
 	
 });
 

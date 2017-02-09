@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="libs/linea/styles.css" />
+	<link href="libs/formstyler/jquery.formstyler.css" rel="stylesheet" />
 	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
 	<link rel="stylesheet" href="libs/animate/animate.min.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
@@ -16,7 +17,8 @@
 	<link rel="stylesheet" href="css/skins/orange.css" />
 	<link rel="stylesheet" href="css/media.css" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Oswald|PT+Sans|Roboto|Ubuntu" rel="stylesheet"> 
-	<script src="libs/jquery/jquery-2.1.3.min.js"></script>	
+	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+	<script src="libs/formstyler/jquery.formstyler.min.js"></script>
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/parallax/parallax.min.js"></script>
 	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
@@ -175,6 +177,60 @@
 						<p>Вы готовы отпустить прошлое, уловить и расшифровать импульсы своего тела, расслабиться и отпустить зажимы?</p>
 						<div class="header_buttons">
 							<button class="subscribe">Записаться на сеанс</button>
+							<div class="form_enroll mfp-hide" id="enroll_popup">
+								<form action="http://formspree.io/pantha_n@mail.ru" class="main_form" novalidate target="_blank" method="POST">
+									<label class="form_item">
+										<span class="color_element">*</span>Как Вас зовут:
+										<input type="text" name="name" placeholder="Ваше имя" data-validation-required-message="Вы не ввели имя" required />
+										<span class="help-block text-danger"></span>		
+									</label>
+									<label class="form_item">
+										Ваш E-mail:
+										<input type="email" name="email" placeholder="Ваш E-mail"/>				
+									</label>
+									<label class="form_item">
+										<span class="color_element">*</span>Номер телефона:
+										<input type="tel" name="tel" placeholder="Номер телефона" data-validation-required-message="Вы не ввели номер телефона" required />
+										<span class="help-block text-danger"></span>		
+									</label>
+									<label class="form_item">
+										Выберите вид массажа:
+										<p>
+											<select name="mas_kind">
+											<option value="Классический массаж всего тела">Классический массаж всего тела</option>
+											<option value="Традиционный тайский массаж">Традиционный тайский массаж</option>
+											</select>
+										</p>
+									</label>
+									<label class="form_item">
+										Выберите продолжительность сеанса:
+										<p>
+											<select name="mas_time">
+											<option value="1,5 часа">1,5 часа</option>
+											<option value="2 часа">2 часа</option>
+											<option value="2,5 часа">2,5 часа</option>
+											<option value="3 часа">3 часа</option>
+											</select>
+										</p>
+									</label>
+									<label class="form_item">
+										Выберите место:
+										<p>
+											<select name="mas_place">
+											<option value="Cтудия А">Cтудия А</option>
+											<option value="Студия Б">Студия Б</option>
+											<option value="Студия В">Студия В</option>
+											</select>
+										</p>
+									</label>
+									<label class="form_item">
+										Комментарий:
+										<textarea name="message" placeholder="Ваше сообщение"></textarea>				
+									</label>
+									<p><span class="color_element">*</span> - поля, обязательные для заполнения</p>
+									<button class="feedback_send">Отправить</button>
+								</form>
+							</div>
 							<!-- <button class="details">Подробнее</button> -->
 						</div>						
 					</div>					
@@ -253,9 +309,8 @@
 							<li>желаете лежа на массажном столе отпустить все зажимы и освободить время для более интересных дел;</li>
 							<li>посещали общий массаж, но это было давно;</li>
 							<li>занимаетесь йогой или другой оздоровительной системой, но все равно чувствуете необходимость расслабиться на массажном столе;</li>
-							<li>находитесь в длительном стрессе, или у Вас бессонница;</li>							 
-						</ul>
-						<p class="text_italic">Массаж всего тела станет отличным дополнением к посещению флоатинг студии или бассейна. Он прекрасно завершит рабочую неделю. А так же восстановит силы после утомительного рабочего дня.</p>		
+							<li>находитесь в длительном стрессе, или у Вас бессонница;</li>	 
+						</ul>								
 					</div>
 					<div class="col-md-6 col-sm-6 animation_3 massage_kind">
 						<img src="img/massage_pic4.jpg" alt="#">
@@ -266,13 +321,22 @@
 							<li>работаете в офисе, или у Вас малоподвижный образ жизни;</li>
 							<li>восстанавливаетесь после травмы и Вам нужно разрабатывать атрофированные мышцы, или удлинять укороченную группу мышц;</li>
 							<li>нуждаетесь в коррекции позвоночника;</li>			 
-						</ul>
-						<p class="text_italic">Тайский массаж дополнит Ваши занятия по йоге, так как его еще называют пассивной йогой, делают на специальном мате, и его приемы уж слишком напоминают движения из йоги, при этом одежда всегда находиться на пациенте.</p>		
+						</ul>								
 					</div>					
 				</div>
 			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 animation_2 massage_char">
+						<p class="text_italic">Массаж всего тела станет отличным дополнением к посещению флоатинг студии или бассейна. Он прекрасно завершит рабочую неделю. А так же восстановит силы после утомительного рабочего дня.</p>
+					</div>
+					<div class="col-md-6 col-sm-6 animation_3 massage_char">
+						<p class="text_italic">Тайский массаж дополнит Ваши занятия по йоге, так как его еще называют пассивной йогой, делают на специальном мате, и его приемы уж слишком напоминают движения из йоги, при этом одежда всегда находиться на пациенте.</p>
+					</div>
+				</div>
+			</div>
 			<div class="massage_buttons">
-				<button class="price_button">Стоимость</button>
+				<a href="#s_price" class="price_button">Стоимость</a>
 				<button>Записаться</button>
 			</div>			
 		</div>
@@ -558,6 +622,23 @@
 			    </div>
 			</div>
 			<button>Оставить отзыв</button>
+			<div class="form_enroll mfp-hide" id="feedback_popup">
+				<form action="http://formspree.io/pantha_n@mail.ru" class="main_form" novalidate target="_blank" method="POST">
+					<label class="form_item">
+						Как Вас зовут:
+						<input type="text" name="name" placeholder="Ваше имя" />			
+					</label>
+					<label class="form_item">
+						Ваш E-mail:
+						<input type="email" name="email" placeholder="Ваш E-mail"/>			
+					</label>			
+					<label class="form_item">
+						Ваш отзыв:
+						<textarea name="message" placeholder="Ваше сообщение"></textarea>	
+					</label>			
+					<button class="feedback_send">Отправить</button>
+				</form>
+			</div>
 			<div  class="massage_details">
 				<p><a href="">>>Узнать еще больше<<</a></p>
 			</div>		

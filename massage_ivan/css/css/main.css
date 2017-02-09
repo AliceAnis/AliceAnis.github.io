@@ -400,6 +400,8 @@ section {
     margin: 10px 0 0 20px; }
     .about_myself .education li {
       margin-bottom: 5px; }
+  .about_myself .choice a {
+    text-decoration: underline; }
 
 .social {
   margin-top: 25px; }
@@ -500,6 +502,19 @@ section {
       text-align: center;
       border: 1px solid #fff;
       font-weight: 600; }
+  .price .price_buttons {
+    text-align: center;
+    margin-top: 70px; }
+  .price button {
+    width: 20%;
+    height: 45px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    -webkit-transition: all 300ms linear 0s;
+    -moz-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s; }
 
 .table_price {
   width: 80%;
@@ -566,6 +581,56 @@ section {
   transition: all 300ms linear 0s; }
 .about_massage .price_button {
   margin-right: 30px; }
+.about_massage .text_bold {
+  font-weight: bold; }
+.about_massage .text_italic {
+  font-style: italic;
+  margin-top: 30px; }
+.about_massage .massage_kind ul {
+  margin: 20px 0; }
+  .about_massage .massage_kind ul li {
+    padding: 10px 0; }
+
+.massage_details {
+  text-align: center;
+  padding: 55px 0 0;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+  position: relative; }
+
+@-webkit-keyframes float {
+  from {
+    bottom: 2em; }
+  50% {
+    bottom: 1em; }
+  to {
+    bottom: 2em; } }
+@-moz-keyframes float {
+  from {
+    bottom: 2em; }
+  50% {
+    bottom: 1em; }
+  to {
+    bottom: 2em; } }
+@keyframes float {
+  from {
+    bottom: 2em; }
+  50% {
+    bottom: 1em; }
+  to {
+    bottom: 2em; } }
+.massage_details a {
+  text-decoration: underline;
+  font-size: 1em;
+  font-weight: bold;
+  display: block;
+  -webkit-animation: 1s ease 0s normal none infinite running float;
+  -moz-animation: 1s ease 0s normal none infinite running float;
+  animation: 1s ease 0s normal none infinite running float;
+  bottom: 1em;
+  position: absolute;
+  width: 100%; }
 
 .massage_profit,
 .massage_restrict {
@@ -736,6 +801,9 @@ footer {
     footer .social li a {
       font-size: 2em; }
 
+.feedback {
+  padding-bottom: 50px; }
+
 .feedback_cont {
   width: 800px; }
   .feedback_cont img {
@@ -805,7 +873,7 @@ footer {
   border: none;
   font-size: 1.2em;
   font-weight: bold;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
   display: block;
   -webkit-transition: all 300ms linear 0s;
