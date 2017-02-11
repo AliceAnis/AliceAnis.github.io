@@ -1,7 +1,7 @@
 @import "bourbon/bourbon"
 
 body
-	font-family: Verdana, sans-serif
+	font-family: Open Sans, sans-serif
 	font-weight: normal
 	font-size: 14px
 	min-width: 320px
@@ -49,7 +49,8 @@ section
 	position: relative
 
 header
-	min-height: 620px	
+	min-height: 620px
+header, .header_article
 	.logo_menu		
 		width: 100%
 		top: 0
@@ -88,7 +89,7 @@ header
 			height: 40px
 			display: block
 			line-height: 40px
-			letter-spacing: -0.3px
+			letter-spacing: 0.3px
 			+transition(all 300ms linear 0s)
 			text-transform: uppercase
 
@@ -107,8 +108,8 @@ header
 	top: 15px
 	right: 15px
 
-body 
-	background-color: #333
+// body 
+// 	background-color: #333
 
 $w: 34px
 $h: 3px
@@ -239,30 +240,21 @@ $h: 3px
 			text-align: center
 			// background-color: rgba(0,0,0,.1)
 			.title_text
-				display: inline-block
-
-				h1
-					font-size: 3.5em
-					text-shadow: 0 2px 5px rgba(0,0,0,0.6)
-					margin-bottom: 10px
-					padding: 0 2%
-					+animation-delay(2s)
-					
+				display: inline-block					
 				p									
 					font-style: italic
 					font-size: 1.2em
 					text-shadow: 0 2px 5px rgba(0,0,0,0.6)
 					padding: 0 3%
-					+animation-delay(1s)			
-							
+					+animation-delay(1s)							
 			
-			+keyframes (float)
-				from
-					bottom: 3em
-				50%
-					bottom: 2em
-				to
-					bottom: 3em
+				+keyframes (float)
+					from
+						bottom: 3em
+					50%
+						bottom: 2em
+					to
+						bottom: 3em
 
 			.arrow_scroll
 				+animation(1s ease 0s normal none infinite running float)
@@ -284,6 +276,14 @@ $h: 3px
 					text-transform: uppercase
 					font-weight: bold
 					margin-bottom: 20px
+.title_text					
+	h1
+		font-size: 4.5em
+		text-shadow: 0 2px 5px rgba(0,0,0,0.6)
+		margin-bottom: 10px
+		padding: 0 2%
+		+animation-delay(2s)
+
 .header_buttons
 	margin-top: 100px
 	+animation-delay(1s)
@@ -293,6 +293,7 @@ $h: 3px
 	height: 45px
 	border-radius: 25px						
 	font-size: 1.3em
+	font-weight: bold
 	// font-weight: bold
 	// box-shadow: 0 2px 5px rgba(0,0,0,0.6)
 	+transition(all 300ms linear 0s)
@@ -301,7 +302,7 @@ $h: 3px
 	width: 40%
 	margin: 200px auto 0
 	background-color: #fff
-	color: #5f5f5f
+	color: #222
 	border-radius: 10px
 	padding: 30px
 	font: 14px Verdana
@@ -322,6 +323,7 @@ $h: 3px
 		font-size: 12px
 		background-color: transparent
 		letter-spacing: 2px
+		outline: none
 
 .form_item
 	input:focus
@@ -462,8 +464,8 @@ section
 
 .articles
 	text-align: center
-	button
-		margin-top: 40px
+	.art_btn
+		margin: 40px auto 0
 		width: 80%
 		height: 60px
 		border-radius: 3px						
@@ -473,7 +475,9 @@ section
 		border: none
 		box-shadow: 0 0 15px rgba(0,0,0,.4)
 		+transition(all 200ms linear 0s)
-	button:hover
+		display: block
+		line-height: 60px
+	.art_btn:hover
 		box-shadow: 0 0 20px rgba(0,0,0,.9)	
 	.article
 		width: 95%
@@ -501,6 +505,9 @@ section
 	.article:hover
 		box-shadow: 0 0 20px rgba(0,0,0,.9)
 
+.articles_text 
+	background-color: #fff
+	padding-top: 115px
 .price
 	text-align: center
 	padding: 80px 10px 80px
@@ -766,6 +773,7 @@ section
 		line-height: 40px
 		text-indent: 12px
 		font-size: 1em
+		outline: none
 	textarea
 		height: 150px
 
@@ -794,6 +802,7 @@ section
 	margin-top: 100px
 
 footer
+	background-color: #333
 	padding: 20px 0
 	.logo_container
 		margin-top: 25px
@@ -859,6 +868,10 @@ footer
 	text-decoration: none	
 	top: 200px	
 
+.jcarousel-control-prev:focus,
+.jcarousel-control-next:focus
+	outline: none
+
 .jcarousel-control-prev.inactive,
 .jcarousel-control-next.inactive 
 	cursor: default
@@ -880,16 +893,25 @@ footer
 		display: block
 		+transition(all 300ms linear 0s)
 
+.articles_wrapper
+	width: 70%
+	margin: 0 auto
 
-
-
-
-		
-
-	
-
-
-
-
-
-			
+.article_body
+	width: 100%
+	padding: 70px
+	box-shadow: 0 2px 5px rgba(0,0,0,0.6)
+	margin-bottom: 25px
+	img
+		width: 240px
+		border: 8px solid #fff
+		border-radius: 50%
+		margin: 20px auto 40px
+		display: block
+		box-shadow: 0 0 15px rgba(0,0,0,0.2)
+	h1
+		text-align: center
+		margin-bottom: 40px
+	p
+		text-align: justify
+		line-height: 2			

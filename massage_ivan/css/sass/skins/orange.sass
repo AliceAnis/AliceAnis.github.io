@@ -5,13 +5,12 @@ $text_color: #323231
 $main_color: #592d06
 $bg_main: #fff
 $bg_2: #ef9e41
-$pcolor: #5f5f5f
+$pcolor: #222
 
 @mixin kerning($kerning)
 	letter-spacing: $kerning + px
 
 body
-	color: $main_color
 	+kerning(1)
 
 a
@@ -97,9 +96,6 @@ section
 	background-color: $bg_2
 	h2
 		color: $text_color		
-	button
-		color: $main_color
-		background-color: $bg_main	
 	.article
 		background-color: $bg_main
 		a
@@ -107,7 +103,10 @@ section
 			+kerning(2)
 		a:hover
 			color: $color
-
+.articles
+	.art_btn
+		color: $main_color
+		background-color: $bg_main
 .price,
 .gallery
 	background-color: $text_color
@@ -194,6 +193,7 @@ form
 	textarea
 		border: 1px solid $color		
 		+kerning(2)
+.form_item,
 .form-group
 	color: $pcolor
 
@@ -215,3 +215,10 @@ form
 .price
 	th
 		color: $color
+
+.article_body
+	background-color: $bg_main
+	h1
+		color: $main_color		
+.articles_text
+	background-color: $bg_2

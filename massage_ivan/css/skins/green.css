@@ -1,12 +1,11 @@
 body {
-  color: #323231;
   letter-spacing: 1px; }
 
 a {
   color: #0f9e07; }
 
 p {
-  color: #5f5f5f; }
+  color: #222; }
 
 .color_element {
   color: #0f9e07; }
@@ -63,7 +62,11 @@ section h4 {
 section .theme_color {
   color: #0f9e07; }
 section li {
-  color: #5f5f5f; }
+  color: #222; }
+section .choice {
+  color: #0f9e07; }
+  section .choice a {
+    color: #fbf31e; }
 
 .social a {
   color: #0f9e07; }
@@ -76,10 +79,6 @@ section li {
   .articles h2,
   .documents h2 {
     color: #323231; }
-  .articles button,
-  .documents button {
-    color: #323231;
-    background-color: #fff; }
   .articles .article,
   .documents .article {
     background-color: #fff; }
@@ -90,6 +89,10 @@ section li {
     .articles .article a:hover,
     .documents .article a:hover {
       color: #0f9e07; }
+
+.articles .art_btn {
+  color: #323231;
+  background-color: #fff; }
 
 .price,
 .gallery {
@@ -108,6 +111,17 @@ section li {
   .gallery th {
     color: #0f9e07; }
 
+.first_col {
+  color: #0f9e07; }
+
+.price span {
+  color: #0f9e07; }
+.price button {
+  background-color: #0f9e07;
+  color: #fff; }
+.price button:hover {
+  background-color: #1eb316; }
+
 .myself_icon i {
   color: #0f9e07; }
 
@@ -116,11 +130,14 @@ section li {
   .about_massage h3 {
     background-color: #1eb316;
     color: #fff; }
-  .about_massage button {
+  .about_massage button, .about_massage .price_button {
     background-color: #0f9e07;
     color: #fff; }
-  .about_massage button:hover {
+  .about_massage button:hover, .about_massage .price_button:hover {
     background-color: #1eb316; }
+
+.massage_details a {
+  color: #323231; }
 
 .gallery ul li {
   letter-spacing: 1.5px; }
@@ -156,21 +173,22 @@ section li {
 
 form input:focus,
 form textarea:focus {
-  box-shadow: 0 0 8px rgba(239, 158, 65, 0.8); }
+  box-shadow: 0 0 8px rgba(15, 158, 7, 0.8); }
 form input,
 form textarea {
   border: 1px solid #0f9e07;
   letter-spacing: 2px; }
 
+.form_item,
 .form-group {
-  color: #5f5f5f; }
+  color: #222; }
 
 .feedback_cont h4 {
-  color: #5f5f5f; }
+  color: #222; }
 
 .jcarousel-control-prev,
 .jcarousel-control-next {
-  color: #5f5f5f; }
+  color: #222; }
 
 .feedback button {
   background-color: #0f9e07;
@@ -180,5 +198,13 @@ form textarea {
 
 .price th {
   color: #0f9e07; }
+
+.article_body {
+  background-color: #fff; }
+  .article_body h1 {
+    color: #323231; }
+
+.articles_text {
+  background-color: #1eb316; }
 
 /*# sourceMappingURL=green.css.map */
