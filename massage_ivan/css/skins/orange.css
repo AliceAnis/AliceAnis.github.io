@@ -44,11 +44,11 @@ p {
 .title_text p {
   color: #fff; }
 
-.header_buttons button {
+.header_buttons a {
   border: 1px solid #592d06;
   background-color: #fff;
   color: #592d06; }
-.header_buttons button:hover {
+.header_buttons a:hover {
   background-color: #592d06;
   color: #fff; }
 

@@ -71,7 +71,7 @@ $(document).ready(function() {
 
 	$("input, select, textarea").not("[type=submit]").jqBootstrapValidation();
 
-	$(".top_mnu ul a, .header_menu ul a, .choice a, .title_centered a, .price_button").mPageScroll2id();
+	$(".top_mnu ul a, .header_menu ul a, .choice a, .title_centered a, .price_button, .subscribe").mPageScroll2id();
 	
 });
 
