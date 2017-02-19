@@ -17,6 +17,13 @@ body input:required:valid,
 body textarea:required:valid {
   color: green; }
 
+.clearfix:after {
+  content: "";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  display: block; }
+
 .hidden {
   display: none; }
 
@@ -182,7 +189,6 @@ header .logo_menu, .header_article .logo_menu {
     margin: 0;
     list-style: none; }
   .top_mnu ul {
-    margin-top: 90px;
     text-align: center; }
     .top_mnu ul li:nth-child(1) a {
       -webkit-animation-delay: 0.15s;
@@ -216,6 +222,10 @@ header .logo_menu, .header_article .logo_menu {
       -webkit-animation-delay: 1.2s;
       -moz-animation-delay: 1.2s;
       animation-delay: 1.2s; }
+    .top_mnu ul li:nth-child(9) a {
+      -webkit-animation-delay: 1.35s;
+      -moz-animation-delay: 1.35s;
+      animation-delay: 1.35s; }
   .top_mnu a {
     display: block;
     text-transform: uppercase;
@@ -395,6 +405,47 @@ header .logo_menu, .header_article .logo_menu {
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease; }
 
+.massage_details {
+  text-align: center;
+  padding: 55px 0 0;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+  position: relative; }
+
+@-webkit-keyframes float {
+  from {
+    bottom: 2em; }
+  50% {
+    bottom: 1em; }
+  to {
+    bottom: 2em; } }
+@-moz-keyframes float {
+  from {
+    bottom: 2em; }
+  50% {
+    bottom: 1em; }
+  to {
+    bottom: 2em; } }
+@keyframes float {
+  from {
+    bottom: 2em; }
+  50% {
+    bottom: 1em; }
+  to {
+    bottom: 2em; } }
+.massage_details a {
+  text-decoration: underline;
+  font-size: 1em;
+  font-weight: bold;
+  display: block;
+  -webkit-animation: 1s ease 0s normal none infinite running float;
+  -moz-animation: 1s ease 0s normal none infinite running float;
+  animation: 1s ease 0s normal none infinite running float;
+  bottom: 1em;
+  position: absolute;
+  width: 100%; }
+
 section {
   overflow: hidden;
   padding: 80px 0 100px; }
@@ -435,7 +486,8 @@ section {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); }
 
 .about_myself {
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  background: url("../img/cream_pixels.png") repeat; }
   .about_myself h3 {
     text-align: center;
     text-transform: uppercase;
@@ -449,7 +501,7 @@ section {
   .about_myself .s_content li {
     font-size: 1.1em;
     margin-bottom: 10px;
-    text-align: justify; }
+    text-align: left; }
   .about_myself .s_content p {
     font-size: 1.1em;
     margin-bottom: 10px;
@@ -481,8 +533,8 @@ section {
 
 .documents {
   width: 100%;
-  padding: 35px 0;
-  margin-top: 140px; }
+  margin-top: 140px;
+  padding: 35px 0; }
   .documents .container {
     width: 100%; }
   .documents .row {
@@ -502,6 +554,12 @@ section {
     transition: all 200ms linear 0s; }
   .documents img:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); }
+
+.doc_pat {
+  position: absolute;
+  width: 100%;
+  background: url("../img/sos.png") repeat;
+  opacity: 0.2; }
 
 .articles {
   text-align: center; }
@@ -613,32 +671,24 @@ section {
 .descr_massage {
   max-width: 70%;
   margin: 0 auto; }
-  .descr_massage p {
-    font-size: 1.1em;
+  .descr_massage .row {
+    padding: 40px 0; }
+  .descr_massage .col-md-6 {
     text-align: left; }
 
 .about_massage img {
-  width: 240px;
+  width: 95%;
   border: 8px solid #fff;
-  border-radius: 50%;
-  margin: 70px auto 40px;
+  border-radius: 20px;
+  margin: 15px auto;
   display: block;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); }
 .about_massage h3 {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.1em;
-  font-weight: normal;
-  padding: 8px;
-  border-radius: 3px; }
-.about_massage .bold {
   font-weight: bold;
-  font-style: italic;
-  text-align: center;
-  margin-bottom: 40px; }
-.about_massage .col-md-6 {
-  padding: 20px 30px;
-  text-align: left; }
+  padding: 8px; }
 .about_massage .massage_buttons {
   text-align: center;
   margin-top: 40px; }
@@ -658,83 +708,78 @@ section {
   display: inline-block;
   line-height: 45px;
   outline: none; }
-.about_massage .text_bold {
-  font-weight: bold; }
-.about_massage .text_italic {
+.about_massage p {
+  font-size: 0.9em;
   font-style: italic; }
-.about_massage .massage_kind ul {
-  margin: 20px 0; }
-  .about_massage .massage_kind ul li {
-    padding: 10px 0; }
-.about_massage .massage_char {
-  margin-top: 30px; }
 
-.massage_details {
-  text-align: center;
-  padding: 55px 0 0;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  animation-delay: 2s;
-  position: relative; }
-
-@-webkit-keyframes float {
-  from {
-    bottom: 2em; }
-  50% {
-    bottom: 1em; }
-  to {
-    bottom: 2em; } }
-@-moz-keyframes float {
-  from {
-    bottom: 2em; }
-  50% {
-    bottom: 1em; }
-  to {
-    bottom: 2em; } }
-@keyframes float {
-  from {
-    bottom: 2em; }
-  50% {
-    bottom: 1em; }
-  to {
-    bottom: 2em; } }
-.massage_details a {
-  text-decoration: underline;
-  font-size: 1em;
-  font-weight: bold;
-  display: block;
-  -webkit-animation: 1s ease 0s normal none infinite running float;
-  -moz-animation: 1s ease 0s normal none infinite running float;
-  animation: 1s ease 0s normal none infinite running float;
-  bottom: 1em;
-  position: absolute;
-  width: 100%; }
-
-.massage_profit,
-.massage_restrict {
-  margin: 90px 0; }
-  .massage_profit ul,
-  .massage_restrict ul {
-    margin: 20px 0 0;
-    padding: 0; }
-    .massage_profit ul li,
-    .massage_restrict ul li {
-      margin: 50px 0;
-      list-style-type: none;
-      min-height: 40px; }
-      .massage_profit ul li span,
-      .massage_restrict ul li span {
-        display: block;
-        margin-left: 50px; }
-
-.massage_profit li {
-  background: url("../img/leaf_list.png") no-repeat; }
-
-.massage_restrict li {
-  background: url("../img/red.png") no-repeat; }
+.massage_profit ul {
+  margin: 0;
+  padding: 0; }
+  .massage_profit ul li {
+    margin: 15px 0;
+    list-style-type: none;
+    min-height: 40px;
+    background: url("../img/leaf_list.png") no-repeat; }
+    .massage_profit ul li span {
+      display: block;
+      margin-left: 50px; }
 
 .massage_effect li {
   margin: 25px 0; }
+
+.about_service img {
+  width: 240px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  margin: 70px auto 40px;
+  display: block;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); }
+.about_service h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 8px;
+  border-radius: 3px; }
+.about_service .bold {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px; }
+.about_service .col-md-6 {
+  padding: 20px 30px;
+  text-align: left; }
+.about_service .massage_buttons {
+  text-align: center;
+  margin-top: 40px; }
+.about_service button, .about_service .price_button {
+  width: 20%;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 300ms linear 0s;
+  -moz-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s; }
+.about_service .price_button {
+  margin-right: 30px;
+  display: inline-block;
+  line-height: 45px;
+  outline: none; }
+.about_service .text_bold {
+  font-weight: bold; }
+.about_service .text_italic {
+  font-style: italic; }
+.about_service .massage_kind ul {
+  margin: 20px 0; }
+  .about_service .massage_kind ul li {
+    padding: 10px 0; }
+.about_service .massage_char {
+  margin-top: 30px; }
+.about_service .massage_descr {
+  width: 70%;
+  margin: 0 auto; }
 
 .gallery {
   padding-bottom: 0; }
@@ -754,6 +799,11 @@ section {
       cursor: pointer;
       font-size: 1em;
       color: #ccc; }
+
+.gallery,
+.price,
+footer {
+  background: url("../img/pixel8.png") repeat; }
 
 .portfolio_item {
   display: none;

@@ -1,6 +1,6 @@
 @media only screen and (max-width : 1200px) {
 	.header_menu li {
-		padding: 10px 2%;
+		padding: 10px 1%;
 	}
 }
 
@@ -11,7 +11,7 @@
 	}
 
 	.header_menu li {
-		padding: 10px 1%;
+		padding: 10px 0.5%;
 	}
 
 	.header_buttons .subscribe {
@@ -93,11 +93,26 @@
 		width: 40%;
 	}
 
-	.about_massage .price_button {
+	.about_massage .price_button,
+	.about_service .price_button {
 		display: none;
 	}
 
-	.about_massage button {
+	.about_massage img {
+		width: 70%;
+		margin: 35px auto;
+	}
+
+	.about_massage .img_sec {
+		display: none;
+	}
+
+	.about_service .massage_descr {
+		width: 85%;
+	}
+
+	.about_massage button,
+	.about_service button {
 		width: 40%;
 	}
 
@@ -226,6 +241,7 @@
 		width: 80%;
 	}
 
+	.about_massage .price_button,
 	.about_massage .price_button {
 		display: none;
 	}
@@ -249,15 +265,24 @@
 		width: 100%;
 	}
 
-	.about_massage button {
+	.about_massage button,
+	.about_service button {
 		width: 40%;
+	}
+
+	.about_massage img {
+		width: 90%;
 	}
 
 	.about_massage .massage_profit li,
 	.about_massage .massage_restrict li,
 	.about_massage .massage_effect li {
 		margin: 35px 0;
-		font-size: 1.1em
+		font-size: 1.3em;
+	}
+
+	.about_massage .container h3 {
+		font-size: 1.1em;
 	}
 	
 	.item_container h3 {
@@ -292,6 +317,7 @@
 
 	.feedback button,
 	.about_massage button,
+	.about_service button,
 	.price button {
 		width: 80%;
 	}

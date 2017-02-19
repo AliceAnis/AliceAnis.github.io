@@ -128,8 +128,7 @@ section .choice {
 .about_massage {
   background-color: #fff; }
   .about_massage h3 {
-    background-color: #66b4cb;
-    color: #fff; }
+    color: #323231; }
   .about_massage button, .about_massage .price_button {
     background-color: #229cbf;
     color: #fff; }

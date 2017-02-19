@@ -1,12 +1,11 @@
 body {
-  color: #323231;
   letter-spacing: 1px; }
 
 a {
   color: #229cbf; }
 
 p {
-  color: #5f5f5f; }
+  color: #222; }
 
 .color_element {
   color: #229cbf; }
@@ -45,11 +44,11 @@ p {
 .title_text p {
   color: #fff; }
 
-.header_buttons button {
+.header_buttons a {
   border: 1px solid #323231;
   background-color: #fff;
   color: #323231; }
-.header_buttons button:hover {
+.header_buttons a:hover {
   background-color: #323231;
   color: #fff; }
 
@@ -63,7 +62,11 @@ section h4 {
 section .theme_color {
   color: #229cbf; }
 section li {
-  color: #5f5f5f; }
+  color: #222; }
+section .choice {
+  color: #229cbf; }
+  section .choice a {
+    color: #fbf31e; }
 
 .social a {
   color: #229cbf; }
@@ -76,10 +79,6 @@ section li {
   .articles h2,
   .documents h2 {
     color: #323231; }
-  .articles button,
-  .documents button {
-    color: #323231;
-    background-color: #fff; }
   .articles .article,
   .documents .article {
     background-color: #fff; }
@@ -90,6 +89,10 @@ section li {
     .articles .article a:hover,
     .documents .article a:hover {
       color: #229cbf; }
+
+.articles .art_btn {
+  color: #323231;
+  background-color: #fff; }
 
 .price,
 .gallery {
@@ -108,6 +111,17 @@ section li {
   .gallery th {
     color: #229cbf; }
 
+.first_col {
+  color: #229cbf; }
+
+.price span {
+  color: #229cbf; }
+.price button {
+  background-color: #229cbf;
+  color: #fff; }
+.price button:hover {
+  background-color: #66b4cb; }
+
 .myself_icon i {
   color: #229cbf; }
 
@@ -116,11 +130,14 @@ section li {
   .about_massage h3 {
     background-color: #66b4cb;
     color: #fff; }
-  .about_massage button {
+  .about_massage button, .about_massage .price_button {
     background-color: #229cbf;
     color: #fff; }
-  .about_massage button:hover {
+  .about_massage button:hover, .about_massage .price_button:hover {
     background-color: #66b4cb; }
+
+.massage_details a {
+  color: #323231; }
 
 .gallery ul li {
   letter-spacing: 1.5px; }
@@ -156,21 +173,22 @@ section li {
 
 form input:focus,
 form textarea:focus {
-  box-shadow: 0 0 8px rgba(239, 158, 65, 0.8); }
+  box-shadow: 0 0 8px rgba(34, 156, 91, 0.8); }
 form input,
 form textarea {
   border: 1px solid #229cbf;
   letter-spacing: 2px; }
 
+.form_item,
 .form-group {
-  color: #5f5f5f; }
+  color: #222; }
 
 .feedback_cont h4 {
-  color: #5f5f5f; }
+  color: #222; }
 
 .jcarousel-control-prev,
 .jcarousel-control-next {
-  color: #5f5f5f; }
+  color: #222; }
 
 .feedback button {
   background-color: #229cbf;
@@ -180,5 +198,13 @@ form textarea {
 
 .price th {
   color: #229cbf; }
+
+.article_body {
+  background-color: #fff; }
+  .article_body h1 {
+    color: #323231; }
+
+.articles_text {
+  background-color: #66b4cb; }
 
 /*# sourceMappingURL=blue.css.map */

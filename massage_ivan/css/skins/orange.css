@@ -128,12 +128,24 @@ section .choice {
 .about_massage {
   background-color: #fff; }
   .about_massage h3 {
-    background-color: #ef9e41;
-    color: #fff; }
-  .about_massage button, .about_massage .price_button {
+    color: #592d06; }
+  .about_massage button,
+  .about_massage .price_button {
     background-color: #e07c07;
     color: #fff; }
-  .about_massage button:hover, .about_massage .price_button:hover {
+  .about_massage button:hover,
+  .about_massage .price_button:hover {
+    background-color: #ef9e41; }
+
+.about_service {
+  background-color: #fff; }
+  .about_service h3 {
+    background-color: #ef9e41;
+    color: #fff; }
+  .about_service button, .about_service .price_button {
+    background-color: #e07c07;
+    color: #fff; }
+  .about_service button:hover, .about_service .price_button:hover {
     background-color: #ef9e41; }
 
 .massage_details a {

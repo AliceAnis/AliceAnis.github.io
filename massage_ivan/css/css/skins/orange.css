@@ -1,12 +1,11 @@
 body {
-  color: #592d06;
   letter-spacing: 1px; }
 
 a {
   color: #e07c07; }
 
 p {
-  color: #323231; }
+  color: #222; }
 
 .color_element {
   color: #e07c07; }
@@ -30,6 +29,8 @@ p {
   color: #592d06; }
 .header_menu a:hover {
   color: #e07c07; }
+.header_menu li {
+  background: url(../../img/div_line.png) no-repeat right; }
 
 .toggle_mnu {
   background-color: #e07c07; }
@@ -43,11 +44,11 @@ p {
 .title_text p {
   color: #fff; }
 
-.header_buttons button {
+.header_buttons a {
   border: 1px solid #592d06;
   background-color: #fff;
   color: #592d06; }
-.header_buttons button:hover {
+.header_buttons a:hover {
   background-color: #592d06;
   color: #fff; }
 
@@ -61,7 +62,16 @@ section h4 {
 section .theme_color {
   color: #e07c07; }
 section li {
-  color: #323231; }
+  color: #222; }
+section .choice {
+  color: #e07c07; }
+  section .choice a {
+    color: #fbf31e; }
+
+.social a {
+  color: #e07c07; }
+.social a:hover {
+  color: #ef9e41; }
 
 .articles,
 .documents {
@@ -69,10 +79,6 @@ section li {
   .articles h2,
   .documents h2 {
     color: #323231; }
-  .articles button,
-  .documents button {
-    color: #592d06;
-    background-color: #fff; }
   .articles .article,
   .documents .article {
     background-color: #fff; }
@@ -83,6 +89,10 @@ section li {
     .articles .article a:hover,
     .documents .article a:hover {
       color: #e07c07; }
+
+.articles .art_btn {
+  color: #592d06;
+  background-color: #fff; }
 
 .price,
 .gallery {
@@ -101,6 +111,17 @@ section li {
   .gallery th {
     color: #e07c07; }
 
+.first_col {
+  color: #e07c07; }
+
+.price span {
+  color: #e07c07; }
+.price button {
+  background-color: #e07c07;
+  color: #fff; }
+.price button:hover {
+  background-color: #ef9e41; }
+
 .myself_icon i {
   color: #e07c07; }
 
@@ -109,11 +130,14 @@ section li {
   .about_massage h3 {
     background-color: #ef9e41;
     color: #fff; }
-  .about_massage button {
+  .about_massage button, .about_massage .price_button {
     background-color: #e07c07;
     color: #fff; }
-  .about_massage button:hover {
+  .about_massage button:hover, .about_massage .price_button:hover {
     background-color: #ef9e41; }
+
+.massage_details a {
+  color: #592d06; }
 
 .gallery ul li {
   letter-spacing: 1.5px; }
@@ -132,5 +156,55 @@ section li {
   .port_descr h3,
   .port_descr p {
     color: #ef9e41; }
+
+.contact_box .contact_icon {
+  color: #e07c07; }
+.contact_box h3 {
+  letter-spacing: 1.5px; }
+
+.contacts button {
+  background-color: #e07c07;
+  color: #fff; }
+.contacts button:hover {
+  background-color: #ef9e41; }
+
+.text-danger li {
+  color: red; }
+
+form input:focus,
+form textarea:focus {
+  box-shadow: 0 0 8px rgba(239, 158, 65, 0.8); }
+form input,
+form textarea {
+  border: 1px solid #e07c07;
+  letter-spacing: 2px; }
+
+.form_item,
+.form-group {
+  color: #222; }
+
+.feedback_cont h4 {
+  color: #222; }
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+  color: #222; }
+
+.feedback button {
+  background-color: #e07c07;
+  color: #fff; }
+.feedback button:hover {
+  background-color: #ef9e41; }
+
+.price th {
+  color: #e07c07; }
+
+.article_body {
+  background-color: #fff; }
+  .article_body h1 {
+    color: #592d06; }
+
+.articles_text {
+  background-color: #ef9e41; }
 
 /*# sourceMappingURL=orange.css.map */
