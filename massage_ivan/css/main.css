@@ -311,14 +311,14 @@ header .logo_menu, .header_article .logo_menu {
 .title_text h1 {
   font-size: 4.5em;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
-  margin-bottom: 10px;
+  margin: 0 0 10px;
   padding: 0 2%;
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
   animation-delay: 2s; }
 
 .header_buttons {
-  margin-top: 100px;
+  margin-top: 30px;
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   animation-delay: 1s; }
@@ -481,7 +481,7 @@ section {
 .gallery {
   padding-bottom: 0; }
   .gallery .row {
-    max-width: 75%;
+    width: 75%;
     margin: 0 auto; }
   .gallery ul {
     padding: 0;
@@ -572,12 +572,6 @@ footer {
   .documents img:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); }
 
-.doc_pat {
-  position: absolute;
-  width: 100%;
-  background: url("../img/sos.png") repeat;
-  opacity: 0.2; }
-
 .feedback {
   padding-bottom: 50px; }
 
@@ -629,7 +623,7 @@ footer {
 
 .jcarousel-control-prev,
 .jcarousel-control-next {
-  font-size: 2.5em;
+  font-size: 3.5em;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -646,6 +640,47 @@ footer {
 
 .jcarousel-control-prev {
   left: -100px; }
+
+.documents .wrapper {
+  margin: auto;
+  max-width: 100%; }
+.documents .jcarousel-wrapper {
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  max-width: 100%; }
+.documents .jcarousel {
+  overflow: hidden;
+  position: relative;
+  max-width: 100%; }
+.documents .jcarousel ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 20000em; }
+.documents .jcarousel li {
+  float: left;
+  padding: 22px 0;
+  margin: 0; }
+.documents .jcarousel-control-next {
+  right: 10px; }
+.documents .jcarousel-control-prev,
+.documents .jcarousel-control-next {
+  font-size: 3.5em;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 105px; }
+.documents .jcarousel-control-prev:focus,
+.documents .jcarousel-control-next:focus {
+  outline: none; }
+.documents .jcarousel-control-prev.inactive,
+.documents .jcarousel-control-next.inactive {
+  cursor: default;
+  opacity: 0.5; }
+.documents .jcarousel-control-prev {
+  left: 10px; }
 
 .feedback button {
   width: 20%;

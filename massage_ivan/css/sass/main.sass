@@ -281,12 +281,12 @@ $h: 3px
 	h1
 		font-size: 4.5em
 		text-shadow: 0 2px 5px rgba(0,0,0,0.6)
-		margin-bottom: 10px
+		margin: 0 0 10px
 		padding: 0 2%
 		+animation-delay(2s)
 
 .header_buttons
-	margin-top: 100px
+	margin-top: 30px
 	+animation-delay(1s)
 
 .subscribe
@@ -457,7 +457,7 @@ section
 .gallery	
 	padding-bottom: 0	
 	.row
-		max-width: 75%
+		width: 75%
 		margin: 0 auto
 	ul
 		padding: 0
@@ -543,11 +543,6 @@ footer
 		+transition(all 200ms linear 0s)
 	img:hover
 		box-shadow: 0 0 20px rgba(0,0,0,.9)
-.doc_pat
-	position: absolute
-	width: 100%	
-	background: url('../img/sos.png') repeat
-	opacity: 0.2
 
 // Section Feedback
 
@@ -602,7 +597,7 @@ footer
 
 .jcarousel-control-prev, 
 .jcarousel-control-next 
-	font-size: 2.5em
+	font-size: 3.5em
 	position: absolute
 	text-align: center
 	text-decoration: none	
@@ -619,6 +614,61 @@ footer
 
 .jcarousel-control-prev 
 	left: -100px
+
+// Карусель документы
+
+.documents
+	.wrapper 
+		margin: auto
+		max-width: 100%	
+
+	.jcarousel-wrapper 
+		height: auto
+		margin: 0 auto
+		position: relative
+		max-width: 100%
+
+	.jcarousel 
+		overflow: hidden
+		position: relative
+		max-width: 100%
+
+	.jcarousel ul 
+		list-style: outside none none
+		margin: 0
+		padding: 0
+		position: relative
+		width: 20000em
+
+	.jcarousel li 
+		float: left
+		padding: 22px 0
+		margin: 0		
+
+	.jcarousel-control-next 
+		right: 10px
+
+	.jcarousel-control-prev, 
+	.jcarousel-control-next 
+		font-size: 3.5em
+		position: absolute
+		text-align: center
+		text-decoration: none	
+		top: 105px	
+
+	.jcarousel-control-prev:focus,
+	.jcarousel-control-next:focus
+		outline: none
+
+	.jcarousel-control-prev.inactive,
+	.jcarousel-control-next.inactive 
+		cursor: default
+		opacity: 0.5
+
+	.jcarousel-control-prev 
+		left: 10px
+
+// Конец
 
 .feedback
 	button
