@@ -160,6 +160,10 @@
 		font-size: 1.1em;
 	}
 
+	.gallery {
+		padding-bottom: 50px;
+	}
+
 	#s_feedback .feedback_cont p {
 		font-size: 1em
 	}
