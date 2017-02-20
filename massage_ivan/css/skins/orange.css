@@ -137,6 +137,9 @@ section .choice {
   .about_massage .price_button:hover {
     background-color: #ef9e41; }
 
+.massage_descr h4 {
+  color: #592d06; }
+
 .about_service {
   background-color: #fff; }
   .about_service h3 {

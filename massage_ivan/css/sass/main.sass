@@ -18,15 +18,10 @@ body input:required:valid,
 body textarea:required:valid
 	color: green
 
-.clearfix:after 
-	content: ""
-	height: 0
-	clear: both
-	overflow: hidden
-	display: block
-
 .hidden
 	display: none
+
+// Preloader	
 
 .loader
 	background: none repeat scroll 0 0 #ffffff
@@ -52,6 +47,8 @@ body textarea:required:valid
 	left: 50%
 	top: 50%
 	position: absolute
+
+// Header
 
 header,
 section 
@@ -117,9 +114,6 @@ header, .header_article
 	top: 15px
 	right: 15px
 
-// body 
-// 	background-color: #333
-
 $w: 34px
 $h: 3px
 
@@ -142,8 +136,7 @@ $h: 3px
 	border: none
 	border-radius: 4px 4px 4px 4px
 	transition: transform 0.5s, top 0.2s
-	display: block
-	/* transition-delay: 0.2s, 0s; */
+	display: block	
 .sw-bottom
 	position: relative
 	width: $w
@@ -193,8 +186,7 @@ $h: 3px
 		padding: 0
 		margin: 0
 		list-style: none
-	ul
-		// margin-top: 90px
+	ul		
 		text-align: center
 		li
 			&:nth-child(1) a
@@ -270,9 +262,7 @@ $h: 3px
 			.arrow_scroll
 				+animation(1s ease 0s normal none infinite running float)
 				bottom: 2em
-				display: block
-				// max-width: 100%
-				// opacity: 0.8
+				display: block				
 				position: absolute
 				text-decoration: none
 				width: 100%
@@ -308,10 +298,10 @@ $h: 3px
 	display: block
 	line-height: 45px
 	margin: 0 auto
-	outline: none
-	// font-weight: bold
-	// box-shadow: 0 2px 5px rgba(0,0,0,0.6)
+	outline: none	
 	+transition(all 300ms linear 0s)
+
+// Form enroll
 
 .form_enroll 
 	width: 40%
@@ -371,35 +361,13 @@ $h: 3px
 
 .form_enroll 
 	button:hover 
-		background-color: #ef9e41
-		
+		background-color: #ef9e41		
 
 .h_opacity
 	opacity: .3
 	+transition(all .2s ease)
 
-.massage_details
-	text-align: center
-	padding: 55px 0 0
-	+animation-delay(2s)
-	position: relative
-
-+keyframes (float)
-	from
-		bottom: 2em
-	50%
-		bottom: 1em
-	to
-		bottom: 2em
-.massage_details a
-	text-decoration: underline
-	font-size: 1em					
-	font-weight: bold
-	display: block
-	+animation(1s ease 0s normal none infinite running float)
-	bottom: 1em
-	position: absolute
-	width: 100% 
+// Section
 
 section
 	overflow: hidden
@@ -431,250 +399,14 @@ section
 		letter-spacing: 3px
 		font-size: 0.9em
 
-.photo
-	text-align: center
-	img
-		max-width: 256px
-		display: inline-block
-		border-radius: 50%
-		border: 8px solid #fff
-		box-shadow: 0 0 15px rgba(0,0,0,0.2)	
-
-.about_myself
-	padding-bottom: 50px
-	background: url("../img/cream_pixels.png") repeat
-	h3
-		text-align: center
-		text-transform: uppercase
-		font-size: 1em
-		font-weight: 400
-		margin: 20px 0 35px
-	h4
-		text-transform: uppercase		
-		font-size: 1.3em
-		margin: 0
-	.s_content li	
-		font-size: 1.1em		
-		margin-bottom: 10px
-		text-align: left
-	.s_content p
-		font-size: 1.1em		
-		margin-bottom: 10px
-		text-align: left
-	ul
-		list-style-type: none
-		margin: 20px 0 0
-		padding: 0
-	.education
-		font-size: 0.9em		
-		font-style: italic
-		list-style-type: disc
-		margin: 10px 0 0 20px
-		li
-			margin-bottom: 5px
-	.choice
-		a
-			text-decoration: underline
-
-.social
-	margin-top: 25px
-	li
-		display: inline-block		
-		padding: 0 3px
-	a
-		+transition(all 200ms linear 0s)
-		font-size: 1.8em
-
-.documents	
-	width: 100%	
-	margin-top: 140px
-	padding: 35px 0
-	.container
-		width: 100%
-	.row
-		width: 100%
-	a
-		outline: none
-		display: block
-	.col-md-4
-		text-align: center
-	img
-		width: 80%
-		border: 8px solid #fff
-		border-radius: 3px
-		box-shadow: 0 0 15px rgba(0,0,0,.4)
-		+transition(all 200ms linear 0s)
-	img:hover
-		box-shadow: 0 0 20px rgba(0,0,0,.9)
-.doc_pat
-	position: absolute
-	width: 100%	
-	background: url('../img/sos.png') repeat
-	opacity: 0.2
-.articles
-	text-align: center	
-	
-	.art_btn
-		margin: 40px auto 0
-		width: 80%
-		height: 60px
-		border-radius: 3px						
-		font-size: 1.2em
-		font-weight: bold
-		text-transform: uppercase
-		border: none
-		box-shadow: 0 0 15px rgba(0,0,0,.4)
-		+transition(all 200ms linear 0s)
-		display: block
-		line-height: 60px
-	.art_btn:hover
-		box-shadow: 0 0 15px rgba(0,0,0,.9)	
-	.article
-		width: 95%
-		border: 8px solid #fff
-		border-radius: 3px
-		box-shadow: 0 0 15px rgba(0,0,0,.4)
-		overflow: hidden
-		height: 425px		
-		+transition(all 200ms linear 0s)
-		.art_picture
-			width: 100%
-			height: auto
-			display: block
-			img
-				max-width: 100%
-		h4
-			text-align: center
-			padding: 0 10px
-			a
-				text-transform: uppercase
-				+transition(all 200ms linear 0s)	
-		p		
-			padding: 0 10px			
-			text-align: left
-	.article:hover
-		box-shadow: 0 0 20px rgba(0,0,0,.9)
-
-.articles_text 
-	background-color: #fff
-	padding-top: 115px
-.price
-	text-align: center
-	padding: 80px 10px 80px	
-	p
-		color: #fff		
-	h3
-		text-align: center
-		text-transform: uppercase
-		margin-bottom: 10px
-	table
-		width: 100%
-		border: 1px solid #fff
-		border-spacing: 1px
-		color: #fff		
-		td,
-		th
-			padding: 12px
-			text-align: center
-			border: 1px solid #fff
-			font-weight: 600
-	.price_buttons
-		text-align: center
-		margin-top: 70px
-	button		
-		width: 20%
-		height: 45px
-		border-radius: 25px						
-		font-size: 1.2em
-		font-weight: bold
-		border: none		
-		+transition(all 300ms linear 0s)
-
-.table_price
-	width: 80%
-	margin: 0 auto
-	p
-		text-align: left
-
-.table_mobile
-	display: none
-	table
-		margin: 30px 0
-
-.price .first_col
-	text-align: left	
-
-.myself_icon
-	text-align: center
-	margin: 40px
-	i
-		font-size: 3em		
-		
-.descr_massage
-	max-width: 70%
-	margin: 0 auto
-	.row
-		padding: 40px 0
-	.col-md-6		
-		text-align: left
-.about_massage
-	img
-		width: 95%
-		border: 8px solid #fff
-		border-radius: 20px
-		margin: 15px auto
-		display: block
-		box-shadow: 0 0 15px rgba(0,0,0,0.2)
-	h3
-		text-align: center
-		text-transform: uppercase		
-		font-size: 1.1em
-		font-weight: bold
-		padding: 8px				
-	.massage_buttons
-		text-align: center
-		margin-top: 40px
-	button, .price_button		
-		width: 20%
-		height: 45px
-		border-radius: 25px						
-		font-size: 1.2em
-		font-weight: bold
-		border: none
-		box-shadow: 0 2px 5px rgba(0,0,0,0.6)
-		+transition(all 300ms linear 0s)
-	.price_button
-		margin-right: 30px
-		display: inline-block
-		line-height: 45px
-		outline: none
-	p	
-		font-size: 	0.9em
-		font-style: italic
-.massage_profit	
-	ul		
-		margin: 0
-		padding: 0
-		li
-			margin: 15px 0
-			list-style-type: none
-			min-height: 40px
-			background: url("../img/leaf_list.png")	no-repeat							
-			span								
-				display: block				
-				margin-left: 50px	
-.massage_effect
-	li
-		margin: 25px 0
-
-// Вставка для услуг
+// Section About Service
 
 .about_service
 	img
 		width: 240px
 		border: 8px solid #fff
 		border-radius: 50%
-		margin: 70px auto 40px
+		margin: 0 auto 40px
 		display: block
 		box-shadow: 0 0 15px rgba(0,0,0,0.2)
 	h3
@@ -718,11 +450,9 @@ section
 			li
 				padding: 10px 0
 	.massage_char
-		margin-top: 30px
-	.massage_descr
-		width: 70%
-		margin: 0 auto
-// Вставка для услуг		
+		margin-top: 30px	
+
+// Section Gallery		
 
 .gallery	
 	padding-bottom: 0	
@@ -792,84 +522,34 @@ footer
 	img
 		width: 100%
 
-.contacts
-	button
-		width: 40%
-		height: 45px
-		border-radius: 25px
-		border: none					
-		font-size: 1.2em
-		font-weight: bold
-		margin-top: 30px
-		box-shadow: 0 2px 5px rgba(0,0,0,0.6)
-		display: block
-		+transition(all 300ms linear 0s)
-
-.contacts .social	
-	ul
-		padding: 0
-	li a
-		font-size: 1.8em			
-
-.contact_box	
-	.contact_icon
-		font-size: 3em
-		margin: 10px 0
-	h3
-		font-weight: normal
-		text-transform: uppercase
-		margin: 0
+.documents	
+	width: 100%	
+	margin-top: 140px
+	padding: 35px 0
+	.container
+		width: 100%
+	.row
+		width: 100%
 	a
-		margin: 20px 0
-		display: block
-.form-group
-	display: block
-	font-size: 1em
-	input,
-	textarea
-		display: block
-		width: 100%		
-		margin: 5px 0 25px
-		line-height: 40px
-		text-indent: 12px
-		font-size: 1em
 		outline: none
-	textarea
-		height: 150px
-
-.map	
-	iframe
-		margin: 0 auto
 		display: block
-		width: 90%
-		height: 420px
-		box-shadow: 0 0 15px rgba(0,0,0,0.2)
+	.col-md-4
+		text-align: center
+	img
+		width: 80%
+		border: 8px solid #fff
 		border-radius: 3px
+		box-shadow: 0 0 15px rgba(0,0,0,.4)
+		+transition(all 200ms linear 0s)
+	img:hover
+		box-shadow: 0 0 20px rgba(0,0,0,.9)
+.doc_pat
+	position: absolute
+	width: 100%	
+	background: url('../img/sos.png') repeat
+	opacity: 0.2
 
-#vk_groups	
-	border-radius: 3px
-	box-shadow: 0 0 15px rgba(0,0,0,0.2)
-	display: inline-block
-	margin-right: 5%
-.fb_groups
-	display: inline-block
-	margin-top: 30px
-	iframe
-		border-radius: 3px
-		box-shadow: 0 0 15px rgba(0,0,0,0.2)
-
-.adress
-	margin-top: 100px
-
-footer
-	background-color: #333
-	padding: 20px 0
-	.logo_container
-		margin-top: 25px
-	.social
-		float: right
-		li a
-			font-size: 2em
+// Section Feedback
 
 .feedback
 	padding-bottom: 50px
@@ -953,6 +633,262 @@ footer
 		display: block
 		+transition(all 300ms linear 0s)
 
+.massage_details
+	text-align: center
+	padding: 55px 0 0
+	+animation-delay(2s)
+	position: relative
+
++keyframes (float)
+	from
+		bottom: 2em
+	50%
+		bottom: 1em
+	to
+		bottom: 2em
+.massage_details a
+	text-decoration: underline
+	font-size: 1em					
+	font-weight: bold
+	display: block
+	+animation(1s ease 0s normal none infinite running float)
+	bottom: 1em
+	position: absolute
+	width: 100%
+
+// Section Price
+
+.price
+	text-align: center
+	padding: 80px 10px 80px	
+	p
+		color: #fff		
+	h3
+		text-align: center
+		text-transform: uppercase
+		margin-bottom: 10px
+	table
+		width: 100%
+		border: 1px solid #fff
+		border-spacing: 1px
+		color: #fff		
+		td,
+		th
+			padding: 12px
+			text-align: center
+			border: 1px solid #fff
+			font-weight: 600
+	.price_buttons
+		text-align: center
+		margin-top: 70px
+	button		
+		width: 20%
+		height: 45px
+		border-radius: 25px						
+		font-size: 1.2em
+		font-weight: bold
+		border: none		
+		+transition(all 300ms linear 0s)
+
+.table_price
+	width: 80%
+	margin: 0 auto
+	p
+		text-align: left
+
+.table_mobile
+	display: none
+	table
+		margin: 30px 0
+
+.price .first_col
+	text-align: left
+
+// Section About Massage	
+
+.about_massage
+	img
+		width: 95%
+		border: 8px solid #fff
+		border-radius: 20px
+		margin: 15px auto
+		display: block
+		box-shadow: 0 0 15px rgba(0,0,0,0.2)
+	h3
+		text-align: center
+		text-transform: uppercase		
+		font-size: 1.1em
+		font-weight: bold
+		padding: 8px				
+	.massage_buttons
+		text-align: center
+		margin-top: 40px
+	button, .price_button		
+		width: 20%
+		height: 45px
+		border-radius: 25px						
+		font-size: 1.2em
+		font-weight: bold
+		border: none
+		box-shadow: 0 2px 5px rgba(0,0,0,0.6)
+		+transition(all 300ms linear 0s)
+	.price_button
+		margin-right: 30px
+		display: inline-block
+		line-height: 45px
+		outline: none
+	
+.massage_profit	
+	ul		
+		margin: 0
+		padding: 0
+		li
+			margin: 15px 0
+			list-style-type: none
+			min-height: 40px
+			background: url("../img/leaf_list.png")	no-repeat							
+			span								
+				display: block				
+				margin-left: 50px	
+.massage_effect
+	li
+		margin: 25px 0
+
+.descr_massage
+	max-width: 70%
+	margin: 0 auto
+	.row
+		padding: 40px 0
+	.col-md-6		
+		text-align: left
+		p	
+			font-size: 	0.9em
+			font-style: italic
+
+.massage_descr
+	padding: 25px 0 40px
+	width: 70%
+	margin: 0 auto
+	img
+		width: 240px
+		border-radius: 50%
+	h4
+		text-align: center
+
+// Section About Myself
+
+.about_myself
+	padding-bottom: 50px
+	background: url("../img/cream_pixels.png") repeat
+	h3
+		text-align: center
+		text-transform: uppercase
+		font-size: 1em
+		font-weight: 400
+		margin: 20px 0 35px
+	h4
+		text-transform: uppercase		
+		font-size: 1.3em
+		margin: 0
+	.s_content li	
+		font-size: 1.1em		
+		margin-bottom: 10px
+		text-align: left
+	.s_content p
+		font-size: 1.1em		
+		margin-bottom: 10px
+		text-align: left
+	ul
+		list-style-type: none
+		margin: 20px 0 0
+		padding: 0
+	.education
+		font-size: 0.9em		
+		font-style: italic
+		list-style-type: disc
+		margin: 10px 0 0 20px
+		li
+			margin-bottom: 5px
+	.choice
+		a
+			text-decoration: underline
+
+.social
+	margin-top: 25px
+	li
+		display: inline-block		
+		padding: 0 3px
+	a
+		+transition(all 200ms linear 0s)
+		font-size: 1.8em
+
+.photo
+	text-align: center
+	img
+		max-width: 256px
+		display: inline-block
+		border-radius: 50%
+		border: 8px solid #fff
+		box-shadow: 0 0 15px rgba(0,0,0,0.2)
+
+.myself_icon
+	text-align: center
+	margin: 40px
+	i
+		font-size: 3em	
+
+// Section Articles
+
+.articles
+	text-align: center	
+	
+	.art_btn
+		margin: 40px auto 0
+		width: 80%
+		height: 60px
+		border-radius: 3px						
+		font-size: 1.2em
+		font-weight: bold
+		text-transform: uppercase
+		border: none
+		box-shadow: 0 0 15px rgba(0,0,0,.4)
+		+transition(all 200ms linear 0s)
+		display: block
+		line-height: 60px
+	.art_btn:hover
+		box-shadow: 0 0 15px rgba(0,0,0,.9)	
+	.article
+		width: 95%
+		border: 8px solid #fff
+		border-radius: 3px
+		box-shadow: 0 0 15px rgba(0,0,0,.4)
+		overflow: hidden
+		height: 425px		
+		+transition(all 200ms linear 0s)
+		.art_picture
+			width: 100%
+			height: auto
+			display: block
+			img
+				max-width: 100%
+		h4
+			text-align: center
+			padding: 0 10px
+			a
+				text-transform: uppercase
+				+transition(all 200ms linear 0s)	
+		p		
+			padding: 0 10px			
+			text-align: left
+	.article:hover
+		box-shadow: 0 0 20px rgba(0,0,0,.9)
+
+.articles_text 
+	background-color: #fff
+	padding-top: 115px
+
+// Articles Page
+
 .articles_wrapper
 	width: 70%
 	margin: 0 auto
@@ -974,4 +910,87 @@ footer
 		margin-bottom: 40px
 	p
 		text-align: left
-		line-height: 2			
+		line-height: 2
+
+// Section Contacts
+
+.contacts
+	button
+		width: 40%
+		height: 45px
+		border-radius: 25px
+		border: none					
+		font-size: 1.2em
+		font-weight: bold
+		margin-top: 30px
+		box-shadow: 0 2px 5px rgba(0,0,0,0.6)
+		display: block
+		+transition(all 300ms linear 0s)
+
+.contacts .social	
+	ul
+		padding: 0
+	li a
+		font-size: 1.8em			
+
+.contact_box	
+	.contact_icon
+		font-size: 3em
+		margin: 10px 0
+	h3
+		font-weight: normal
+		text-transform: uppercase
+		margin: 0
+	a
+		margin: 20px 0
+		display: block
+.form-group
+	display: block
+	font-size: 1em
+	input,
+	textarea
+		display: block
+		width: 100%		
+		margin: 5px 0 25px
+		line-height: 40px
+		text-indent: 12px
+		font-size: 1em
+		outline: none
+	textarea
+		height: 150px
+
+.map	
+	iframe
+		margin: 0 auto
+		display: block
+		width: 90%
+		height: 420px
+		box-shadow: 0 0 15px rgba(0,0,0,0.2)
+		border-radius: 3px
+
+#vk_groups	
+	border-radius: 3px
+	box-shadow: 0 0 15px rgba(0,0,0,0.2)
+	display: inline-block
+	margin-right: 5%
+.fb_groups
+	display: inline-block
+	margin-top: 30px
+	iframe
+		border-radius: 3px
+		box-shadow: 0 0 15px rgba(0,0,0,0.2)
+
+.adress
+	margin-top: 100px
+
+// Footer
+
+footer
+	background-color: #333
+	padding: 20px 0
+	.logo_container
+		margin-top: 25px
+	.social
+		float: right
+		li a
+			font-size: 2em			

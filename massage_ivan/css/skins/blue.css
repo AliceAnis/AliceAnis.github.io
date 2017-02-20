@@ -135,6 +135,9 @@ section .choice {
   .about_massage button:hover, .about_massage .price_button:hover {
     background-color: #66b4cb; }
 
+.massage_descr h4 {
+  color: #323231; }
+
 .massage_details a {
   color: #323231; }
 
