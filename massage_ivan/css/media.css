@@ -74,6 +74,10 @@
 		padding: 40px;
 	}
 
+	.artpage_body {
+		font-size: 1.3em;
+	}
+
 }
 
 /* Small Devices, Tablets */
@@ -136,10 +140,10 @@
 		display: block;
 	}
 
-	.documents {
+	/*.documents {
 		display: none;
 	}
-
+*/
 	.describe {
 		margin-bottom: 75px;
 	}
@@ -221,11 +225,15 @@
 	.form-group,
 	.contact_box a,
 	.contacts button {
-		font-size: 1.3em
+		font-size: 1.3em;
 	}
 
 	.adress {
-		margin-top: 40px
+		margin-top: 40px;
+	}
+
+	.artpage_body {
+		padding: 15px;
 	}
 	
 }

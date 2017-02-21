@@ -94,6 +94,11 @@ section .choice {
   color: #323231;
   background-color: #fff; }
 
+.art_gradient a {
+  color: #229cbf; }
+.art_gradient a:hover {
+  color: #66b4cb; }
+
 .price,
 .gallery {
   background-color: #323231; }
@@ -208,5 +213,13 @@ form textarea {
 
 .articles_text {
   background-color: #66b4cb; }
+
+.artpage_wrapper {
+  background-color: #66b4cb; }
+
+.artpage_body {
+  background-color: #fff; }
+  .artpage_body h1 {
+    color: #323231; }
 
 /*# sourceMappingURL=blue.css.map */

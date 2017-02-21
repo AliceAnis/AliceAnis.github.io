@@ -92,6 +92,11 @@ section .choice {
   color: #592d06;
   background-color: #fff; }
 
+.art_gradient a {
+  color: #e07c07; }
+.art_gradient a:hover {
+  color: #ef9e41; }
+
 .price,
 .gallery {
   background-color: #323231; }
@@ -219,5 +224,13 @@ form textarea {
 
 .articles_text {
   background-color: #ef9e41; }
+
+.artpage_wrapper {
+  background-color: #ef9e41; }
+
+.artpage_body {
+  background-color: #fff; }
+  .artpage_body h1 {
+    color: #592d06; }
 
 /*# sourceMappingURL=orange.css.map */
