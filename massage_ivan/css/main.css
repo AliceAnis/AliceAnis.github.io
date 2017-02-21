@@ -255,8 +255,7 @@ header .logo_menu, .header_article .logo_menu {
     .title_wrapper .title_descr .title_centered {
       display: table-cell;
       vertical-align: middle;
-      text-align: center;
-      background-color: rgba(0, 0, 0, 0.15); }
+      text-align: center; }
       .title_wrapper .title_descr .title_centered .title_text {
         display: inline-block; }
         .title_wrapper .title_descr .title_centered .title_text p {
