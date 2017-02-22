@@ -69,6 +69,28 @@ $(document).ready(function() {
 		$(this).find(".port_descr").attr("id", "work_" + i);
 	});
 
+	$(".owl-carousel").owlCarousel({
+
+		loop:true,
+		margin:20,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1,
+				nav:true
+			},
+			480:{
+				items:2,
+				nav:false
+			},
+			768:{
+				items:3,
+				nav:true,
+				loop:false
+			}
+		}
+	});
+
 	$("input, select, textarea").not("[type=submit]").jqBootstrapValidation();
 
 	$(".top_mnu ul a, .header_menu ul a, .choice a, .title_centered a, .price_button, .subscribe").mPageScroll2id();

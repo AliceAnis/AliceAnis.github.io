@@ -552,16 +552,10 @@ footer {
 .documents {
   width: 100%;
   margin-top: 140px;
-  padding: 35px 0; }
-  .documents .container {
-    width: 100%; }
-  .documents .row {
-    width: 100%; }
+  padding: 10px 0; }
   .documents a {
     outline: none;
     display: block; }
-  .documents .col-md-4 {
-    text-align: center; }
   .documents img {
     width: 80%;
     border: 8px solid #fff;
@@ -572,6 +566,8 @@ footer {
     transition: all 200ms linear 0s; }
   .documents img:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); }
+  .documents .owl-item {
+    padding: 15px; }
 
 .feedback {
   padding-bottom: 50px; }
